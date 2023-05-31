@@ -1,0 +1,15 @@
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/JewelCollector
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/JewelCollector.deps.json
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/JewelCollector.runtimeconfig.json
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/JewelCollector.dll
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/ref/JewelCollector.dll
+/home/samuel/Projects/JewelCollector/bin/Debug/net6.0/JewelCollector.pdb
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.csproj.AssemblyReference.cache
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.GeneratedMSBuildEditorConfig.editorconfig
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.AssemblyInfoInputs.cache
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.AssemblyInfo.cs
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.csproj.CoreCompileInputs.cache
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.dll
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/ref/JewelCollector.dll
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.pdb
+/home/samuel/Projects/JewelCollector/obj/Debug/net6.0/JewelCollector.genruntimeconfig.cache
