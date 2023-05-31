@@ -14,30 +14,15 @@ e Blue, no valor de 10 pontos.
 
 // A impressão do mapa deverá seguir a seguinte regra:Joias Red,como JR; Joias Green, como JG; Joias Blue, como JB;
 
-public class Jewel : ICell {
+public class Jewel : ICell, ICollectable {
     public int X { get; }
     public int Y { get; }
-    public string Type { get; }
 
-    public Jewel(int x, int y, string type) {
+    public int Points { get; set; }
+
+    public Jewel(int x, int y) {
         X = x;
         Y = y;
-        Type = type;
-    }
-
-    public string Symbol {
-        get {
-            switch (Type) {
-                case "Red":
-                    return "JR";
-                case "Green":
-                    return "JG";
-                case "Blue":
-                    return "JB";
-                default:
-                    return "--";
-            }
-        }
     }
 }
 

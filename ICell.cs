@@ -1,3 +1,4 @@
 public interface ICell {
-    string Symbol { get; }
+    public int X { get; }
+    public int Y { get; }
 }

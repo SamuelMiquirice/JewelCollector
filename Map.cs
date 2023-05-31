@@ -22,9 +22,9 @@ public class Map {
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 if (i == robot.X && j == robot.Y) {
-                    Console.Write(robot.Symbol + " ");
+                    Console.Write(robot + " ");
                 } else {
-                    Console.Write(Cells[i, j].Symbol + " ");
+                    Console.Write(Cells[i, j] + " ");
                 }
             }
             Console.WriteLine();
@@ -41,17 +41,14 @@ public class Map {
         }
     }
 
-    public void AddJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = jewel;
+    public void AddCell(ICell cell) {
+        Cells[cell.X, cell.Y] = cell;
     }
 
-    public void RemoveJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = new EmptyCell();
+    public void RemoveCell(ICell cell) {
+        Cells[cell.X, cell.Y] = new EmptyCell();
     }
 
-    public void AddObstacle(Obstacle obstacle) {
-        Cells[obstacle.X, obstacle.Y] = obstacle;
-    }
 }
 
 

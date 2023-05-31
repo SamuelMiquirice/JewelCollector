@@ -46,59 +46,59 @@ public class JewelCollector {
     public static void Main() {
         Map map = new Map();
 
-        Jewel redJewel1 = new Jewel(1, 9, "Red");
-        map.AddJewel(redJewel1);
+        RedJewel redRedJewel1 = new RedJewel(1, 9);
+        map.AddCell(redRedJewel1);
 
-        Jewel redJewel2 = new Jewel(8, 8, "Red");
-        map.AddJewel(redJewel2);
+        RedJewel redRedJewel2 = new RedJewel(8, 8);
+        map.AddCell(redRedJewel2);
 
-        Jewel greenJewel1 = new Jewel(9, 1, "Green");
-        map.AddJewel(greenJewel1);
+        GreenJewel greenGreenJewel1 = new GreenJewel(9, 1);
+        map.AddCell(greenGreenJewel1);
 
-        Jewel greenJewel2 = new Jewel(7, 6, "Green");
-        map.AddJewel(greenJewel2);
+        GreenJewel greenGreenJewel2 = new GreenJewel(7, 6);
+        map.AddCell(greenGreenJewel2);
 
-        Jewel blueJewel1 = new Jewel(3, 4, "Blue");
-        map.AddJewel(blueJewel1);
+        BlueJewel blueBlueJewel1 = new BlueJewel(3, 4);
+        map.AddCell(blueBlueJewel1);
 
-        Jewel blueJewel2 = new Jewel(2, 1, "Blue");
-        map.AddJewel(blueJewel2);
+        BlueJewel blueBlueJewel2 = new BlueJewel(2, 1);
+        map.AddCell(blueBlueJewel2);
 
-        Obstacle water1 = new Obstacle(5, 0, "Water");
-        map.AddObstacle(water1);
+        Water water1 = new Water(5, 0);
+        map.AddCell(water1);
 
-        Obstacle water2 = new Obstacle(5, 1, "Water");
-        map.AddObstacle(water2);
+        Water water2 = new Water(5, 1);
+        map.AddCell(water2);
 
-        Obstacle water3 = new Obstacle(5, 2, "Water");
-        map.AddObstacle(water3);
+        Water water3 = new Water(5, 2);
+        map.AddCell(water3);
 
-        Obstacle water4 = new Obstacle(5, 3, "Water");
-        map.AddObstacle(water4);
+        Water water4 = new Water(5, 3);
+        map.AddCell(water4);
 
-        Obstacle water5 = new Obstacle(5, 4, "Water");
-        map.AddObstacle(water5);
+        Water water5 = new Water(5, 4);
+        map.AddCell(water5);
 
-        Obstacle water6 = new Obstacle(5, 5, "Water");
-        map.AddObstacle(water6);
+        Water water6 = new Water(5, 5);
+        map.AddCell(water6);
 
-        Obstacle water7 = new Obstacle(5, 6, "Water");
-        map.AddObstacle(water7);
+        Water water7 = new Water(5, 6);
+        map.AddCell(water7);
 
-        Obstacle tree1 = new Obstacle(5, 9, "Tree");
-        map.AddObstacle(tree1);
+        Tree tree1 = new Tree(5, 9);
+        map.AddCell(tree1);
 
-        Obstacle tree2 = new Obstacle(3, 9, "Tree");
-        map.AddObstacle(tree2);
+        Tree tree2 = new Tree(3, 9);
+        map.AddCell(tree2);
 
-        Obstacle tree3 = new Obstacle(8, 3, "Tree");
-        map.AddObstacle(tree3);
+        Tree tree3 = new Tree(8, 3);
+        map.AddCell(tree3);
 
-        Obstacle tree4 = new Obstacle(2, 5, "Tree");
-        map.AddObstacle(tree4);
+        Tree tree4 = new Tree(2, 5);
+        map.AddCell(tree4);
 
-        Obstacle tree5 = new Obstacle(1, 4, "Tree");
-        map.AddObstacle(tree5);
+        Tree tree5 = new Tree(1, 4);
+        map.AddCell(tree5);
 
         Robot robot = new Robot(0, 0);
 
@@ -120,8 +120,13 @@ public class JewelCollector {
             } else if (command.Key == ConsoleKey.D) {
                 robot.MoveEast(map);
             } else if (command.Key == ConsoleKey.G) {
-                robot.CollectJewel(map);
+                robot.CollectCollectable(map);
             }
+
+            if(robot.TotalEnergy == 0){
+                isGameRunning = false;
+            }
+
         } while (isGameRunning);
     }
 }
