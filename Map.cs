@@ -8,7 +8,7 @@ como $$; Obstáculos do tipo Water, como ##; Espaços vazios, como --.
 */
 
 // Crie um mapa com dimensão 10x10 
-´
+
 public class Map {
     public ICell[,] Cells { get; }
 
@@ -17,6 +17,10 @@ public class Map {
         InitializeEmptyCells();
     }
 
+
+        // var radioactiveElement = new RadioactiveElement(2, 2);
+        // Cells[radioactiveElement.X, radioactiveElement.Y] = radioactiveElement;
+    
     public bool isEmpty()
     {
         /*

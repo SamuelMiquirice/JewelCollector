@@ -39,20 +39,61 @@ public class Robot : ICell {
 
         
         if (TotalEnergy > 0 && X > 0 && !(map.Cells[X - 1, Y] is Obstacle)) {
+
             map.Cells[X, Y] = new EmptyCell();
             X--;
             TotalEnergy --;
-            map.Cells[X, Y] = (ICell) this;
+
+            if (map.Cells[X, Y] is RadioactiveElement) {  // Verifica se está em cima da posição de um elemento radiotivo, se sim, remove 30 de energia
+              TotalEnergy -=30;  
             }
+
+            map.Cells[X, Y] = (ICell) this;  // Faz o deslocamento
+            }
+
+            NeighborIsRadioactiveElement(map);
+            
+        }
+        
+
+    
+
+    public void NeighborIsRadioactiveElement(Map map) {
+        if (X - 1 > 0 && (map.Cells[X - 1, Y] is RadioactiveElement)){
+            TotalEnergy -=10; 
+        }
+
+        if (X + 1 <= map.Cells.GetLength(0) && (map.Cells[X + 1, Y] is RadioactiveElement)){
+            TotalEnergy -=10; 
+        }
+
+        if (Y - 1 > 0 && (map.Cells[X, Y - 1] is RadioactiveElement)){
+            TotalEnergy -=10; 
+        }
+
+        if (Y + 1 <= map.Cells.GetLength(1) && (map.Cells[X, Y + 1] is RadioactiveElement)){
+            TotalEnergy -=10; 
+        }
+
+            //  if ((map.Cells[X - 1, Y] is RadioactiveElement) || (map.Cells[X + 1, Y] is RadioactiveElement) || (map.Cells[X, Y - 1] is RadioactiveElement) || (map.Cells[X, Y +1] is RadioactiveElement)) {
+            //     TotalEnergy -=30; 
+            // }
     }
+    
 
     public void MoveWest(Map map) {
         if (TotalEnergy > 0 && Y > 0 && !(map.Cells[X, Y - 1] is Obstacle)) {
             map.Cells[X, Y] = new EmptyCell();
             Y--;
             TotalEnergy --;
+
+            if (map.Cells[X, Y] is RadioactiveElement) {  // Verifica se está em cima da posição de um elemento radiotivo, se sim, remove 30 de energia
+              TotalEnergy -=30;  
+            }
+
             map.Cells[X, Y] = this;
         }
+        NeighborIsRadioactiveElement(map);      
     }
 
     public void MoveSouth(Map map) {
@@ -60,16 +101,29 @@ public class Robot : ICell {
             map.Cells[X, Y] = new EmptyCell();
             X++;
             TotalEnergy --;
+
+            if (map.Cells[X, Y] is RadioactiveElement) {  // Verifica se está em cima da posição de um elemento radiotivo, se sim, remove 30 de energia
+              TotalEnergy -=30;  
+            }
+
             map.Cells[X, Y] = this;
         }
+        NeighborIsRadioactiveElement(map);      
     }
+
     public void MoveEast(Map map) {
         if (TotalEnergy > 0 && Y < 9 && !(map.Cells[X, Y + 1] is Obstacle)) {
             map.Cells[X, Y] = new EmptyCell();
             Y++;
             TotalEnergy --;
+
+            if (map.Cells[X, Y] is RadioactiveElement) {  // Verifica se está em cima da posição de um elemento radiotivo, se sim, remove 30 de energia
+              TotalEnergy -=30;  
+            }
+
             map.Cells[X, Y] = this;
         }
+        NeighborIsRadioactiveElement(map);      
     }
 
 public void setPos(int x, int y)

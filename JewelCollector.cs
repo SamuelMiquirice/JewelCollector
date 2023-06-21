@@ -100,6 +100,9 @@ public class JewelCollector {
         Tree tree5 = new Tree(1, 4);
         map.AddCell(tree5);
 
+        RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
+        map.AddCell(radioactiveElement);
+        
         Robot robot = new Robot(0, 0);
 
         bool isGameRunning = true;
@@ -123,7 +126,9 @@ public class JewelCollector {
                 robot.CollectCollectable(map);
             }
 
-            if(robot.TotalEnergy == 0){
+            map.PrintMap(robot);
+
+            if(robot.TotalEnergy <= 0){
                 isGameRunning = false;
             }
 
