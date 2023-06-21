@@ -127,6 +127,11 @@ public class JewelCollector {
                 isGameRunning = false;
             }
 
+            if(map.isEmpty()){
+                map.levelUp(robot);
+
+            }
+
         } while (isGameRunning);
     }
 }

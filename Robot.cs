@@ -72,6 +72,13 @@ public class Robot : ICell {
         }
     }
 
+public void setPos(int x, int y)
+{
+    this.X=y;
+    this.Y = y;
+
+}
+
 
 public void CollectCollectable(Map map) {
     int mapSize = 10;
