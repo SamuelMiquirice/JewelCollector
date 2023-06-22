@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/samuel/Projects/JewelCollector/JewelCollector.csproj",
+      "projectUniqueName": "/home/samuel/JewelCollector/JewelCollector.csproj",
       "projectName": "JewelCollector",
-      "projectPath": "/home/samuel/Projects/JewelCollector/JewelCollector.csproj",
+      "projectPath": "/home/samuel/JewelCollector/JewelCollector.csproj",
       "packagesPath": "/home/samuel/.nuget/packages/",
-      "outputPath": "/home/samuel/Projects/JewelCollector/obj/",
+      "outputPath": "/home/samuel/JewelCollector/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/samuel/.nuget/NuGet/NuGet.Config"

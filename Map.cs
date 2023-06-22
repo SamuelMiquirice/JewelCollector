@@ -17,14 +17,100 @@ public class Map {
         InitializeEmptyCells();
     }
 
+
+        // var radioactiveElement = new RadioactiveElement(2, 2);
+        // Cells[radioactiveElement.X, radioactiveElement.Y] = radioactiveElement;
+    
+    public bool isEmpty()
+    {
+        /*
+            Verifica se ainda possui uma joia no mapa. Se possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true.
+            isso ajuda a definir se o mapa foi finalizado.
+
+        */
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++)
+            {
+                if(Cells[i,j] is Jewel)
+                    return false;
+            }
+            
+        } 
+        return true;
+    }
+
+    public void levelUp(Robot robot)
+    {
+        /*
+        Essa funcao passa para o level 2 (pode passar para os leveis 3, 4, 5, se existirem)
+        para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score 
+        e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos
+
+        */
+        InitializeEmptyCells();
+        robot.setPos(0,0);
+        RedJewel redRedJewel1 = new RedJewel(1, 9);
+        this.AddCell(redRedJewel1);
+
+        RedJewel redRedJewel2 = new RedJewel(8, 8);
+        this.AddCell(redRedJewel2);
+
+        GreenJewel greenGreenJewel1 = new GreenJewel(9, 1);
+        this.AddCell(greenGreenJewel1);
+
+        GreenJewel greenGreenJewel2 = new GreenJewel(7, 6);
+        this.AddCell(greenGreenJewel2);
+
+        BlueJewel blueBlueJewel1 = new BlueJewel(3, 4);
+        this.AddCell(blueBlueJewel1);
+
+        BlueJewel blueBlueJewel2 = new BlueJewel(2, 1);
+        this.AddCell(blueBlueJewel2);
+
+        Water water1 = new Water(5, 0);
+        this.AddCell(water1);
+
+        // Water water2 = new Water(5, 1);
+        // this.AddCell(water2);
+
+        // Water water3 = new Water(5, 2);
+        // this.AddCell(water3);
+
+        // Water water4 = new Water(5, 3);
+        // this.AddCell(water4);
+
+        // Water water5 = new Water(5, 4);
+        // this.AddCell(water5);
+
+        // Water water6 = new Water(5, 5);
+        // this.AddCell(water6);
+
+        // Water water7 = new Water(5, 6);
+        // this.AddCell(water7);
+
+
+
+        Tree tree3 = new Tree(8, 3);
+        this.AddCell(tree3);
+
+        Tree tree4 = new Tree(2, 5);
+        this.AddCell(tree4);
+
+        Tree tree5 = new Tree(1, 4);
+        this.AddCell(tree5);
+
+        this.AddCell(robot);
+    }
+
+
     public void PrintMap(Robot robot) {
         Console.Clear();
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 if (i == robot.X && j == robot.Y) {
-                    Console.Write(robot.Symbol + " ");
+                    Console.Write(robot + " ");
                 } else {
-                    Console.Write(Cells[i, j].Symbol + " ");
+                    Console.Write(Cells[i, j] + " ");
                 }
             }
             Console.WriteLine();
@@ -41,95 +127,12 @@ public class Map {
         }
     }
 
-    public void AddJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = jewel;
+    public void AddCell(ICell cell) {
+        Cells[cell.X, cell.Y] = cell;
     }
 
-    public void RemoveJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = new EmptyCell();
+    public void RemoveCell(ICell cell) {
+        Cells[cell.X, cell.Y] = new EmptyCell();
     }
 
-    public void AddObstacle(Obstacle obstacle) {
-        Cells[obstacle.X, obstacle.Y] = obstacle;
-    }
 }
-
-
-
-
-
-/*
-
-
-public class Map {
-    private string[,] Cells { get; set; }
-
-    public Map() {
-        Cells = new string[10, 10];
-        InitializeEmptyCells();
-    }
-
-    private void InitializeEmptyCells() {
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                Cells[i, j] = "--";
-            }
-        }
-    }
-
-    public void AddJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = GetJewelSymbol(jewel.Type);
-    }
-
-    public void RemoveJewel(Jewel jewel) {
-        Cells[jewel.X, jewel.Y] = "--";
-    }
-
-    public void AddObstacle(Obstacle obstacle) {
-        Cells[obstacle.X, obstacle.Y] = GetObstacleSymbol(obstacle.Type);
-    }
-
-    public void PrintMap(Robot robot) {
-        Console.Clear();
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                if (i == robot.X && j == robot.Y) {
-                    Console.Write("ME ");
-                } else {
-                    Console.Write(Cells[i, j] + " ");
-                }
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine();
-        robot.PrintStats();
-    }
-
-    private string GetJewelSymbol(string type) {
-        switch (type) {
-            case "Red":
-                return "JR";
-            case "Green":
-                return "JG";
-            case "Blue":
-                return "JB";
-            default:
-                return "--";
-        }
-    }
-
-    private string GetObstacleSymbol(string type) {
-        switch (type) {
-            case "Water":
-                return "##";
-            case "Tree":
-                return "$$";
-            default:
-                return "--";
-        }
-    }
-}
-
-*/
-
-

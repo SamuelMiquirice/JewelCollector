@@ -22,25 +22,10 @@ poderá ser Water ou Tree.
 public class Obstacle : ICell {
     public int X { get; }
     public int Y { get; }
-    public string Type { get; }
 
-    public Obstacle(int x, int y, string type) {
+    public Obstacle(int x, int y) {
         X = x;
         Y = y;
-        Type = type;
-    }
-
-    public string Symbol {
-        get {
-            switch (Type) {
-                case "Water":
-                    return "##";
-                case "Tree":
-                    return "$$";
-                default:
-                    return "--";
-            }
-        }
     }
 }
 
