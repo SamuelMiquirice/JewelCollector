@@ -100,9 +100,10 @@ public class JewelCollector {
         Tree tree5 = new Tree(1, 4);
         map.AddCell(tree5);
 
-        RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
-        map.AddCell(radioactiveElement);
-        
+        // RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
+        // map.AddCell(radioactiveElement);
+
+          
         Robot robot = new Robot(0, 0);
 
         bool isGameRunning = true;
@@ -136,6 +137,7 @@ public class JewelCollector {
                 map.levelUp(robot);
 
             }
+           
 
         } while (isGameRunning);
     }
