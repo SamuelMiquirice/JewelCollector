@@ -47,10 +47,18 @@ public class Map {
         e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos
 
         */
+
+
+        
+
+
         InitializeEmptyCells();
         robot.setPos(0,0);
         RedJewel redRedJewel1 = new RedJewel(1, 9);
         this.AddCell(redRedJewel1);
+
+        RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
+        this.AddCell(radioactiveElement);
 
         RedJewel redRedJewel2 = new RedJewel(8, 8);
         this.AddCell(redRedJewel2);
@@ -100,7 +108,12 @@ public class Map {
         this.AddCell(tree5);
 
         this.AddCell(robot);
+
+
     }
+
+
+    
 
 
     public void PrintMap(Robot robot) {
