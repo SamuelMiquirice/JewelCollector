@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfaceIEnergySource" kind="interface" language="C#" prot="public">
+    <compoundname>IEnergySource</compoundname>
+    <derivedcompoundref refid="classBlueJewel" prot="public" virt="non-virtual">BlueJewel</derivedcompoundref>
+    <derivedcompoundref refid="classTree" prot="public" virt="non-virtual">Tree</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfaceIEnergySource_1ae381aeb4b091fe3c6ab0b16b4fe6a720" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int IEnergySource.Energy</definition>
+        <argsstring></argsstring>
+        <name>Energy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IEnergySource.cs" line="8" column="16" bodyfile="IEnergySource.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa interface é para realizar as seguintes ações: Os itens <ref refid="classTree" kindref="compound">Tree</ref> e Blue <ref refid="classJewel" kindref="compound">Jewel</ref> fornecerão energia para o robô; <ref refid="classTree" kindref="compound">Tree</ref> fornecerá 3 pontos de energia, enquanto que Blue <ref refid="classJewel" kindref="compound">Jewel</ref> fornecerá 5 pontos; Todas as joias serão coletadas após o uso; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BlueJewel</label>
+        <link refid="classBlueJewel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Tree</label>
+        <link refid="classTree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IEnergySource</label>
+        <link refid="interfaceIEnergySource"/>
+      </node>
+    </inheritancegraph>
+    <location file="IEnergySource.cs" line="7" column="18" bodyfile="IEnergySource.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interfaceIEnergySource_1ae381aeb4b091fe3c6ab0b16b4fe6a720" prot="public" virt="non-virtual"><scope>IEnergySource</scope><name>Energy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

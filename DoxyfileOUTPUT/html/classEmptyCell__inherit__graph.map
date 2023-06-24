@@ -1,0 +1,4 @@
+<map id="EmptyCell" name="EmptyCell">
+<area shape="rect" id="node1" title="Essa classe mostra as células vazia no mapa." alt="" coords="5,80,95,107"/>
+<area shape="rect" id="node2" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="25,5,75,32"/>
+</map>

@@ -1,0 +1,281 @@
+\hypertarget{classRobot}{}\doxysection{Robot Class Reference}
+\label{classRobot}\index{Robot@{Robot}}
+
+
+Essa é a classe, que controla o comportamento de um robô, criado na posição (x, y) = (0, 0). A classe \mbox{\hyperlink{classRobot}{Robot}} é responsável por armazenar as informações do robô, que será a posição (x, y) e uma sacola (bag), em que o robô colocará as joias coletadas no mapa. A classe \mbox{\hyperlink{classRobot}{Robot}} implementa os métodos para que o robô possa interagir com o mapa, isto é, deslocar-\/se nas quatro direções e coletar as joias. A classe \mbox{\hyperlink{classRobot}{Robot}} também implementa um método para imprimir na tela o total de joias armazenadas na sacola e o valor total.  
+
+
+
+
+Inheritance diagram for Robot\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{classRobot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Robot\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{classRobot__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRobot_ae72924cbb5570401f991d423986e5243}{Robot}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Este é o construtor da classe \mbox{\hyperlink{classRobot}{Robot}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_aed061149ee64c92005663cdd1f3d2864}{Neighbor\+Is\+Radioactive\+Element}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a próxima posição (cima, baixo, esquerda ou direita) do robô não contém um elemento radiotivo (elemento que lhe faz perder 10 unidades de energia quando estiver ao lado do robô). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_a965ea6878fd228b3d2bd7c4a438e1ca1}{Move\+North}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a posição a esquerda do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_a2e62c901662f0581a9f9a826885c98e6}{Move\+West}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a posição abaixo do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_a7e37929e648b18fd6dd1c266629fb05f}{Move\+South}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a posição a direita do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_ae9b3829af56d85200ebc84b89551866d}{Move\+East}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a posição acima do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_a46d83c15bf78ed018392b4bbfde62684}{set\+Pos}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classRobot_a74d2fc37202f246f72f138821efd9e42}{Collect\+Collectable}} (\mbox{\hyperlink{classMap}{Map}} map)
+\begin{DoxyCompactList}\small\item\em Este método verifica se a próxima posição (esquerda, direita, cima, baixo) do robô contém um obstáculo ou um objeto (joia) coletável (o que incrementa a energia e a pontuação) 
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna energia e a pontuação atual, após a coleção do objeito (joia)
+\end{DoxyReturn}
+\end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRobot_a28451bab9229c5179df038d85506fd4d}{Print\+Stats}} ()
+\begin{DoxyCompactList}\small\item\em Este método imprime na tela o total de joias armazenadas na sacola e a pontuação total. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classRobot_a5cc8821a18984f094d8668c6e6b1a9b0}{To\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classRobot_a4772203d14e274b4d6cc9f1f41f536b9}{X}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+int \mbox{\hyperlink{classRobot_a56e85ffab5e3dd8f75e536a8ee9a673f}{Y}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{interfaceICell}{ICell}} $>$ \mbox{\hyperlink{classRobot_a1f8114a79cb4fa675ee6b1a7e2604420}{Bag}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{classRobot_a04e43b7462442b9dcf83a77dd4129308}{Total\+Score}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{classRobot_a366b3d412fce80ccb5cd4ef9c60bd98c}{Total\+Jewels}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \mbox{\hyperlink{classRobot_aa5424412c28c4b707749a25226fff1fe}{Symbol}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{classRobot_a4fb30184ce4e96545fe9adadcd954d52}{Total\+Energy}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Essa é a classe, que controla o comportamento de um robô, criado na posição (x, y) = (0, 0). A classe \mbox{\hyperlink{classRobot}{Robot}} é responsável por armazenar as informações do robô, que será a posição (x, y) e uma sacola (bag), em que o robô colocará as joias coletadas no mapa. A classe \mbox{\hyperlink{classRobot}{Robot}} implementa os métodos para que o robô possa interagir com o mapa, isto é, deslocar-\/se nas quatro direções e coletar as joias. A classe \mbox{\hyperlink{classRobot}{Robot}} também implementa um método para imprimir na tela o total de joias armazenadas na sacola e o valor total. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRobot_ae72924cbb5570401f991d423986e5243}\label{classRobot_ae72924cbb5570401f991d423986e5243}} 
+\index{Robot@{Robot}!Robot@{Robot}}
+\index{Robot@{Robot}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{Robot()}{Robot()}}
+{\footnotesize\ttfamily Robot.\+Robot (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este é o construtor da classe \mbox{\hyperlink{classRobot}{Robot}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Esse parámetro representa a posição do robô em função do eixo das abcisas.\\
+\hline
+{\em y} & Esse parámetro representa a posição do robô em função do eixo das ordenadas.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRobot_a74d2fc37202f246f72f138821efd9e42}\label{classRobot_a74d2fc37202f246f72f138821efd9e42}} 
+\index{Robot@{Robot}!CollectCollectable@{CollectCollectable}}
+\index{CollectCollectable@{CollectCollectable}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{CollectCollectable()}{CollectCollectable()}}
+{\footnotesize\ttfamily void Robot.\+Collect\+Collectable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a próxima posição (esquerda, direita, cima, baixo) do robô contém um obstáculo ou um objeto (joia) coletável (o que incrementa a energia e a pontuação) 
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna energia e a pontuação atual, após a coleção do objeito (joia)
+\end{DoxyReturn}
+
+
+\mbox{\Hypertarget{classRobot_ae9b3829af56d85200ebc84b89551866d}\label{classRobot_ae9b3829af56d85200ebc84b89551866d}} 
+\index{Robot@{Robot}!MoveEast@{MoveEast}}
+\index{MoveEast@{MoveEast}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{MoveEast()}{MoveEast()}}
+{\footnotesize\ttfamily void Robot.\+Move\+East (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a posição acima do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna \char`\"{}menos 30 unidades de energia\char`\"{}, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-\/se para cima.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRobot_a965ea6878fd228b3d2bd7c4a438e1ca1}\label{classRobot_a965ea6878fd228b3d2bd7c4a438e1ca1}} 
+\index{Robot@{Robot}!MoveNorth@{MoveNorth}}
+\index{MoveNorth@{MoveNorth}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{MoveNorth()}{MoveNorth()}}
+{\footnotesize\ttfamily void Robot.\+Move\+North (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a posição a esquerda do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna \char`\"{}menos 30 unidades de energia\char`\"{}, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-\/se para a esquerda.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRobot_a7e37929e648b18fd6dd1c266629fb05f}\label{classRobot_a7e37929e648b18fd6dd1c266629fb05f}} 
+\index{Robot@{Robot}!MoveSouth@{MoveSouth}}
+\index{MoveSouth@{MoveSouth}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{MoveSouth()}{MoveSouth()}}
+{\footnotesize\ttfamily void Robot.\+Move\+South (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a posição a direita do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna \char`\"{}menos 30 unidades de energia\char`\"{}, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-\/se para direita.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRobot_a2e62c901662f0581a9f9a826885c98e6}\label{classRobot_a2e62c901662f0581a9f9a826885c98e6}} 
+\index{Robot@{Robot}!MoveWest@{MoveWest}}
+\index{MoveWest@{MoveWest}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{MoveWest()}{MoveWest()}}
+{\footnotesize\ttfamily void Robot.\+Move\+West (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a posição abaixo do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna \char`\"{}menos 30 unidades de energia\char`\"{}, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-\/se para baixo.
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRobot_aed061149ee64c92005663cdd1f3d2864}\label{classRobot_aed061149ee64c92005663cdd1f3d2864}} 
+\index{Robot@{Robot}!NeighborIsRadioactiveElement@{NeighborIsRadioactiveElement}}
+\index{NeighborIsRadioactiveElement@{NeighborIsRadioactiveElement}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{NeighborIsRadioactiveElement()}{NeighborIsRadioactiveElement()}}
+{\footnotesize\ttfamily void Robot.\+Neighbor\+Is\+Radioactive\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMap}{Map}}}]{map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método verifica se a próxima posição (cima, baixo, esquerda ou direita) do robô não contém um elemento radiotivo (elemento que lhe faz perder 10 unidades de energia quando estiver ao lado do robô). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Representa a posição no mapa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Este método retorna \char`\"{}menos 10 unidades de energia\char`\"{}, caso o elemento radiotivo estiver próximo (ao lado) do robô (após cada jogada).
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRobot_a28451bab9229c5179df038d85506fd4d}\label{classRobot_a28451bab9229c5179df038d85506fd4d}} 
+\index{Robot@{Robot}!PrintStats@{PrintStats}}
+\index{PrintStats@{PrintStats}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{PrintStats()}{PrintStats()}}
+{\footnotesize\ttfamily void Robot.\+Print\+Stats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Este método imprime na tela o total de joias armazenadas na sacola e a pontuação total. 
+
+\mbox{\Hypertarget{classRobot_a46d83c15bf78ed018392b4bbfde62684}\label{classRobot_a46d83c15bf78ed018392b4bbfde62684}} 
+\index{Robot@{Robot}!setPos@{setPos}}
+\index{setPos@{setPos}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{setPos()}{setPos()}}
+{\footnotesize\ttfamily void Robot.\+set\+Pos (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classRobot_a5cc8821a18984f094d8668c6e6b1a9b0}\label{classRobot_a5cc8821a18984f094d8668c6e6b1a9b0}} 
+\index{Robot@{Robot}!ToString@{ToString}}
+\index{ToString@{ToString}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Robot.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classRobot_a1f8114a79cb4fa675ee6b1a7e2604420}\label{classRobot_a1f8114a79cb4fa675ee6b1a7e2604420}} 
+\index{Robot@{Robot}!Bag@{Bag}}
+\index{Bag@{Bag}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{Bag}{Bag}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{interfaceICell}{ICell}}$>$ Robot.\+Bag\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{classRobot_aa5424412c28c4b707749a25226fff1fe}\label{classRobot_aa5424412c28c4b707749a25226fff1fe}} 
+\index{Robot@{Robot}!Symbol@{Symbol}}
+\index{Symbol@{Symbol}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{Symbol}{Symbol}}
+{\footnotesize\ttfamily string Robot.\+Symbol\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{classRobot_a4fb30184ce4e96545fe9adadcd954d52}\label{classRobot_a4fb30184ce4e96545fe9adadcd954d52}} 
+\index{Robot@{Robot}!TotalEnergy@{TotalEnergy}}
+\index{TotalEnergy@{TotalEnergy}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{TotalEnergy}{TotalEnergy}}
+{\footnotesize\ttfamily int Robot.\+Total\+Energy\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classRobot_a366b3d412fce80ccb5cd4ef9c60bd98c}\label{classRobot_a366b3d412fce80ccb5cd4ef9c60bd98c}} 
+\index{Robot@{Robot}!TotalJewels@{TotalJewels}}
+\index{TotalJewels@{TotalJewels}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{TotalJewels}{TotalJewels}}
+{\footnotesize\ttfamily int Robot.\+Total\+Jewels\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classRobot_a04e43b7462442b9dcf83a77dd4129308}\label{classRobot_a04e43b7462442b9dcf83a77dd4129308}} 
+\index{Robot@{Robot}!TotalScore@{TotalScore}}
+\index{TotalScore@{TotalScore}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{TotalScore}{TotalScore}}
+{\footnotesize\ttfamily int Robot.\+Total\+Score\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classRobot_a4772203d14e274b4d6cc9f1f41f536b9}\label{classRobot_a4772203d14e274b4d6cc9f1f41f536b9}} 
+\index{Robot@{Robot}!X@{X}}
+\index{X@{X}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{X}{X}}
+{\footnotesize\ttfamily int Robot.\+X\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+\mbox{\Hypertarget{classRobot_a56e85ffab5e3dd8f75e536a8ee9a673f}\label{classRobot_a56e85ffab5e3dd8f75e536a8ee9a673f}} 
+\index{Robot@{Robot}!Y@{Y}}
+\index{Y@{Y}!Robot@{Robot}}
+\doxysubsubsection{\texorpdfstring{Y}{Y}}
+{\footnotesize\ttfamily int Robot.\+Y\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Robot_8cs}{Robot.\+cs}}\end{DoxyCompactItemize}

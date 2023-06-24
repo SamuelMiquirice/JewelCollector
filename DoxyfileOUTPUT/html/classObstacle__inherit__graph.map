@@ -1,0 +1,6 @@
+<map id="Obstacle" name="Obstacle">
+<area shape="rect" id="node1" title="Essa é a classe, armazena as informações do obstáculo, que é a posição (x, y) e o tipo...." alt="" coords="29,80,108,107"/>
+<area shape="rect" id="node3" href="$classTree.html" title="Essa classe herda as caraterísticas da classe Obstacle, por tratar&#45;se de um tipo de obstáculo." alt="" coords="5,155,55,181"/>
+<area shape="rect" id="node4" href="$classWater.html" title="Essa classe herda as caraterísticas da classe Obstacle, por tratar&#45;se de um tipo de obstáculo." alt="" coords="79,155,139,181"/>
+<area shape="rect" id="node2" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="43,5,94,32"/>
+</map>

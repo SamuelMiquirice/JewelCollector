@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classRadioactiveElement" kind="class" language="C#" prot="public">
+    <compoundname>RadioactiveElement</compoundname>
+    <basecompoundref refid="interfaceICell" prot="public" virt="non-virtual">ICell</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classRadioactiveElement_1ac18efaf24ee877c54f303f3a14f4844c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int RadioactiveElement.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RadioactiveElement.cs" line="7" column="16" bodyfile="RadioactiveElement.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="classRadioactiveElement_1a7700ef307d6372ea41021c58d29809a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int RadioactiveElement.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RadioactiveElement.cs" line="8" column="16" bodyfile="RadioactiveElement.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="classRadioactiveElement_1aef245885fc57e32cbde52d3cdc048870" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string RadioactiveElement.Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RadioactiveElement.cs" line="9" column="19" bodyfile="RadioactiveElement.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRadioactiveElement_1a22fd760f0d300e849e77558ba0a6d899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RadioactiveElement.RadioactiveElement</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>RadioactiveElement</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RadioactiveElement.cs" line="11" column="12" bodyfile="RadioactiveElement.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classRadioactiveElement_1a08d913efeb4a4fa0c07e4062a682c4c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string RadioactiveElement.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Esse imprime (subscreve) &quot;!!&quot; no lugar do nome da classe &quot;RadioactiveElement&quot; no mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retorna &quot;!!&quot;.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RadioactiveElement.cs" line="50" column="28" bodyfile="RadioactiveElement.cs" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa é a classe, que implementa o efeito radiotivo, imprimindo &quot;!!&quot; no mapa em representação do elemento com efeito radiotivo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>RadioactiveElement</label>
+        <link refid="classRadioactiveElement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>RadioactiveElement</label>
+        <link refid="classRadioactiveElement"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="RadioactiveElement.cs" line="5" column="7" bodyfile="RadioactiveElement.cs" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classRadioactiveElement_1a22fd760f0d300e849e77558ba0a6d899" prot="public" virt="non-virtual"><scope>RadioactiveElement</scope><name>RadioactiveElement</name></member>
+      <member refid="classRadioactiveElement_1aef245885fc57e32cbde52d3cdc048870" prot="public" virt="non-virtual"><scope>RadioactiveElement</scope><name>Symbol</name></member>
+      <member refid="classRadioactiveElement_1a08d913efeb4a4fa0c07e4062a682c4c0" prot="public" virt="non-virtual"><scope>RadioactiveElement</scope><name>ToString</name></member>
+      <member refid="classRadioactiveElement_1ac18efaf24ee877c54f303f3a14f4844c" prot="public" virt="non-virtual"><scope>RadioactiveElement</scope><name>X</name></member>
+      <member refid="classRadioactiveElement_1a7700ef307d6372ea41021c58d29809a9" prot="public" virt="non-virtual"><scope>RadioactiveElement</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

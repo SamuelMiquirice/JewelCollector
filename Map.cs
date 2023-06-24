@@ -1,13 +1,17 @@
-/* 
-Map.cs - A classe Map deverá armazenar as informações do mapa 2D e 
-implementar métodos para adição e remoção de joias e obstáculos. 
-Além de um método para imprimir o mapa na tela. A impressão do mapa 
-deverá seguir a seguinte regra: Robo será impresso como ME; Joias Red, 
-como JR; Joias Green, como JG; Joias Blue, como JB; Obstáculos do tipo Tree, 
-como $$; Obstáculos do tipo Water, como ##; Espaços vazios, como --. 
-*/
-
 // Crie um mapa com dimensão 10x10 
+
+/// <summary>
+/// Essa classe armazena as informações do mapa 2D e implementar métodos para adição e remoção de joias e obstáculos. 
+/// A classe implementa um método que imprimir o mapa na tela. 
+/// A impressão do mapa segue as seguintes regras: 
+/// Robo será impresso como ME; 
+/// Joias Red, como JR; 
+/// Joias Green, como JG; 
+/// Joias Blue, como JB; 
+/// Obstáculos do tipo Tree, como $$; 
+/// Obstáculos do tipo Water, como ##; 
+/// Espaços vazios, como --.
+/// </summary>
 
 public class Map {
     public ICell[,] Cells { get; }
@@ -21,13 +25,14 @@ public class Map {
         // var radioactiveElement = new RadioactiveElement(2, 2);
         // Cells[radioactiveElement.X, radioactiveElement.Y] = radioactiveElement;
     
+
+/// <summary>
+/// Essa método, verifica se ainda possui uma joia no mapa.  Isso ajuda a definir se o mapa foi finalizado.     
+/// </summary>
+/// <returns> e possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true. </returns>
     public bool isEmpty()
     {
-        /*
-            Verifica se ainda possui uma joia no mapa. Se possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true.
-            isso ajuda a definir se o mapa foi finalizado.
-
-        */
+       
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++)
             {
@@ -39,18 +44,15 @@ public class Map {
         return true;
     }
 
+
+
+// <summary>
+/// Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem).
+/// Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos.
+/// </summary>
     public void levelUp(Robot robot)
     {
-        /*
-        Essa funcao passa para o level 2 (pode passar para os leveis 3, 4, 5, se existirem)
-        para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score 
-        e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos
-
-        */
-
-
-        
-
+          
 
         InitializeEmptyCells();
         robot.setPos(0,0);
@@ -100,14 +102,15 @@ public class Map {
 
         Tree tree3 = new Tree(8, 3);
         this.AddCell(tree3);
-
+ 
         Tree tree4 = new Tree(2, 5);
         this.AddCell(tree4);
-
+ 
         Tree tree5 = new Tree(1, 4);
         this.AddCell(tree5);
-
+    
         this.AddCell(robot);
+        
 
 
     }

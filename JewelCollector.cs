@@ -4,17 +4,6 @@
 // Obstacle.cs, Robot.cs, Map.cs, JewelCollector.cs
 
 
-/*
-JewelCollector.cs - A classe JewelCollector deverá ser responsável por 
-implementar o método Main(), criar o mapa, inserir as joias, obstáculos,
-instanciar o robô e ler os comandos do teclado. Para que o usuário possa 
-controlar o robô, os seguintes comandos deverão ser passados através das 
-teclas w, s, a, d, g. Sendo que a tecla w desloca o robô para o norte, a 
-tecla s desloca para o sul, a tecla a desloca para oeste e a tecla d para
-leste. Para coletar uma joia, use a tecla g. 
-*/
-
-
 // Inicie o jogo, isto é, leia o teclado e colete todas as joias e desvie 
 // dos obstáculos interativamente.
 
@@ -40,7 +29,11 @@ leste. Para coletar uma joia, use a tecla g.
 //       } while (running);
 //   }
 
-
+/// <summary>
+/// Essa é a classe principal, que é responsável por implementar o método Main() que chama as demais classes existentes no projeto, criar o mapa, inserir as joias, obstáculos, instanciar o robô e ler os comandos do teclado. 
+/// Para que o usuário possa controlar o robô, os seguintes comandos deverão ser passados através das teclas w, s, a, d, g. 
+/// Sendo que a tecla "w" desloca o robô para o norte, a tecla "s" desloca para o sul, a tecla "a" desloca para oeste e a tecla "d" para leste. Para coletar uma joia, o usuário deve usar a tecla "g".  
+/// </summary>
 
 public class JewelCollector {
     public static void Main() {

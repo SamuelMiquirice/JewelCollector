@@ -1,0 +1,7 @@
+<map id="BlueJewel" name="BlueJewel">
+<area shape="rect" id="node1" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="91,155,178,181"/>
+<area shape="rect" id="node2" href="$classJewel.html" title="Essa é a classe, armazena as informações da joia, como a posição (x, y) no mapa e o tipo,..." alt="" coords="51,80,109,107"/>
+<area shape="rect" id="node3" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node4" href="$interfaceICollectable.html" title="Essa interface é para auxiliar na coleção de pontos, sabendo que: Os itens Tree e Blue Jewel fornecer..." alt="" coords="80,5,179,32"/>
+<area shape="rect" id="node5" href="$interfaceIEnergySource.html" title="Essa interface é para realizar as seguintes ações: Os itens Tree e Blue Jewel fornecerão energia para..." alt="" coords="133,80,248,107"/>
+</map>

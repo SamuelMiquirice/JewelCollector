@@ -1,0 +1,8 @@
+<map id="Jewel" name="Jewel">
+<area shape="rect" id="node1" title="Essa é a classe, armazena as informações da joia, como a posição (x, y) no mapa e o tipo,..." alt="" coords="136,80,193,107"/>
+<area shape="rect" id="node4" href="$classBlueJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="5,155,92,181"/>
+<area shape="rect" id="node5" href="$classGreenJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="117,155,213,181"/>
+<area shape="rect" id="node6" href="$classRedJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="237,155,319,181"/>
+<area shape="rect" id="node2" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="90,5,141,32"/>
+<area shape="rect" id="node3" href="$interfaceICollectable.html" title="Essa interface é para auxiliar na coleção de pontos, sabendo que: Os itens Tree e Blue Jewel fornecer..." alt="" coords="165,5,263,32"/>
+</map>

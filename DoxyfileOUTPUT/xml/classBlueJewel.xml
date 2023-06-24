@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBlueJewel" kind="class" language="C#" prot="public">
+    <compoundname>BlueJewel</compoundname>
+    <basecompoundref refid="classJewel" prot="public" virt="non-virtual">Jewel</basecompoundref>
+    <basecompoundref refid="interfaceIEnergySource" prot="public" virt="non-virtual">IEnergySource</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classBlueJewel_1a1c1925c4d58264a4f087ca8545516180" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int BlueJewel.Energy</definition>
+        <argsstring></argsstring>
+        <name>Energy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlueJewel.cs" line="7" column="16" bodyfile="BlueJewel.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBlueJewel_1a8af1df0f2c322e8a9abef93dd60938f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BlueJewel.BlueJewel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>BlueJewel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlueJewel.cs" line="8" column="12" bodyfile="BlueJewel.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classBlueJewel_1a328f44284e91d9cf91ac3ffcfe63cc92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string BlueJewel.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BlueJewel.cs" line="13" column="28" bodyfile="BlueJewel.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe herda as caraterísticas da classe <ref refid="classJewel" kindref="compound">Jewel</ref>, por tratar-se de um tipo de joia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BlueJewel</label>
+        <link refid="classBlueJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+      <node id="5">
+        <label>IEnergySource</label>
+        <link refid="interfaceIEnergySource"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BlueJewel</label>
+        <link refid="classBlueJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+      <node id="5">
+        <label>IEnergySource</label>
+        <link refid="interfaceIEnergySource"/>
+      </node>
+    </collaborationgraph>
+    <location file="BlueJewel.cs" line="5" column="7" bodyfile="BlueJewel.cs" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classBlueJewel_1a8af1df0f2c322e8a9abef93dd60938f5" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>BlueJewel</name></member>
+      <member refid="classBlueJewel_1a1c1925c4d58264a4f087ca8545516180" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>Energy</name></member>
+      <member refid="classJewel_1ac8d2feb84a42a2bfcc8d6488a3ff1fe5" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>Jewel</name></member>
+      <member refid="classJewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>Points</name></member>
+      <member refid="classBlueJewel_1a328f44284e91d9cf91ac3ffcfe63cc92" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>ToString</name></member>
+      <member refid="classJewel_1a92728797d6e99974b1638bcc0cf8864d" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>X</name></member>
+      <member refid="classJewel_1a428566e8ef113de5e32111e5b9478ac8" prot="public" virt="non-virtual"><scope>BlueJewel</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

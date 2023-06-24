@@ -1,4 +1,6 @@
-
+/// <summary>
+/// Essa classe herda as caraterísticas da classe Obstacle, por tratar-se de um tipo de obstáculo.
+/// </summary>
 public class Tree : Obstacle, IEnergySource, ICollectable {
 
     public int Energy { get; }
@@ -10,6 +12,6 @@ public class Tree : Obstacle, IEnergySource, ICollectable {
     }
 
     public override string ToString(){
-        return "$$";
+        return "$$";      
     }
 }

@@ -1,9 +1,3 @@
-/*
-Obstacle.cs - A classe Obstacle deverá armazenar as informações do obstáculo, 
-que será a posição (x, y) e o tipo. Cada obstáculo deverá possuir um tipo, que 
-poderá ser Water ou Tree. 
-*/
-
     // • Crie e insira os obstáculos de acordo com o tipo e posição (x, y) abaixo: 
     //     ◦ Water - (5, 0) 
     //     ◦ Water - (5, 1) 
@@ -18,6 +12,9 @@ poderá ser Water ou Tree.
     //     ◦ Tree - (2, 5) 
     //     ◦ Tree - (1, 4) 
 
+/// <summary>
+/// Essa é a classe, armazena as informações do obstáculo, que é a posição (x, y) e o tipo. Cada obstáculo possui um tipo, que pode ser Water ou Tree.  
+/// </summary>
 
 public class Obstacle : ICell {
     public int X { get; }

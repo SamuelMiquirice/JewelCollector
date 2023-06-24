@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classEmptyCell" kind="class" language="C#" prot="public">
+    <compoundname>EmptyCell</compoundname>
+    <basecompoundref refid="interfaceICell" prot="public" virt="non-virtual">ICell</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classEmptyCell_1a168891c2112c7c1ea2a15e9e20a4b020" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int EmptyCell.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmptyCell.cs" line="6" column="16" bodyfile="EmptyCell.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="classEmptyCell_1a05d0da9b1f3db3272a26a9ba8177121a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int EmptyCell.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmptyCell.cs" line="7" column="16" bodyfile="EmptyCell.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEmptyCell_1aff13d91a4e37ee72517d214c1164e9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string EmptyCell.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmptyCell.cs" line="9" column="28" bodyfile="EmptyCell.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe mostra as células vazia no mapa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>EmptyCell</label>
+        <link refid="classEmptyCell"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>EmptyCell</label>
+        <link refid="classEmptyCell"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="EmptyCell.cs" line="5" column="7" bodyfile="EmptyCell.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classEmptyCell_1aff13d91a4e37ee72517d214c1164e9d1" prot="public" virt="non-virtual"><scope>EmptyCell</scope><name>ToString</name></member>
+      <member refid="classEmptyCell_1a168891c2112c7c1ea2a15e9e20a4b020" prot="public" virt="non-virtual"><scope>EmptyCell</scope><name>X</name></member>
+      <member refid="classEmptyCell_1a05d0da9b1f3db3272a26a9ba8177121a" prot="public" virt="non-virtual"><scope>EmptyCell</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

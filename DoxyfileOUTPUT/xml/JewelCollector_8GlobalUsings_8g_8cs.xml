@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="JewelCollector_8GlobalUsings_8g_8cs" kind="file" language="C#">
+    <compoundname>JewelCollector.GlobalUsings.g.cs</compoundname>
+    <innernamespace refid="namespaceglobal_1_1System">global::System</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1Collections_1_1Generic">global::System::Collections::Generic</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1IO">global::System::IO</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1Linq">global::System::Linq</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1Net_1_1Http">global::System::Net::Http</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1Threading">global::System::Threading</innernamespace>
+    <innernamespace refid="namespaceglobal_1_1System_1_1Threading_1_1Tasks">global::System::Threading::Tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>&lt;auto-generated/&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.IO;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.Linq;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.Net.Http;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.Threading;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>global::System.Threading.Tasks;</highlight></codeline>
+    </programlisting>
+    <location file="obj/Debug/net6.0/JewelCollector.GlobalUsings.g.cs"/>
+  </compounddef>
+</doxygen>

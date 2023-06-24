@@ -1,3 +1,7 @@
+
+/// <summary>
+/// Essa classe herda as caraterísticas da classe Jewel, por tratar-se de um tipo de joia.
+/// </summary>
 public class BlueJewel : Jewel, IEnergySource {
 
     public int Energy { get; }

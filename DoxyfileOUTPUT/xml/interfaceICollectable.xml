@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfaceICollectable" kind="interface" language="C#" prot="public">
+    <compoundname>ICollectable</compoundname>
+    <derivedcompoundref refid="classJewel" prot="public" virt="non-virtual">Jewel</derivedcompoundref>
+    <derivedcompoundref refid="classTree" prot="public" virt="non-virtual">Tree</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfaceICollectable_1a8a57a01710ce5a06f7f4e4bdc4f09544" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICollectable.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ICollectable.cs" line="9" column="16" bodyfile="ICollectable.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa interface é para auxiliar na coleção de pontos, sabendo que: Os itens <ref refid="classTree" kindref="compound">Tree</ref> e Blue <ref refid="classJewel" kindref="compound">Jewel</ref> fornecerão energia para o robô; <ref refid="classTree" kindref="compound">Tree</ref> fornecerá 3 pontos de energia, enquanto que Blue <ref refid="classJewel" kindref="compound">Jewel</ref> fornecerá 5 pontos; Todas as joias serão coletadas após o uso; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>RedJewel</label>
+        <link refid="classRedJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BlueJewel</label>
+        <link refid="classBlueJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Tree</label>
+        <link refid="classTree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GreenJewel</label>
+        <link refid="classGreenJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ICollectable.cs" line="8" column="18" bodyfile="ICollectable.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interfaceICollectable_1a8a57a01710ce5a06f7f4e4bdc4f09544" prot="public" virt="non-virtual"><scope>ICollectable</scope><name>Points</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
