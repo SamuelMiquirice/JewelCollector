@@ -1,0 +1,5 @@
+<map id="IEnergySource" name="IEnergySource">
+<area shape="rect" id="node1" title="Essa interface é para realizar as seguintes ações: Os itens Tree e Blue Jewel fornecerão energia para..." alt="" coords="37,5,151,32"/>
+<area shape="rect" id="node2" href="$classBlueJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$classTree.html" title="Essa classe herda as caraterísticas da classe Obstacle, por tratar&#45;se de um tipo de obstáculo." alt="" coords="116,80,165,107"/>
+</map>

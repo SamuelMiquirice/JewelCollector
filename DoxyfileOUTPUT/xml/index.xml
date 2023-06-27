@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classBlueJewel" kind="class"><name>BlueJewel</name>
+    <member refid="classBlueJewel_1a1c1925c4d58264a4f087ca8545516180" kind="property"><name>Energy</name></member>
+    <member refid="classBlueJewel_1a8af1df0f2c322e8a9abef93dd60938f5" kind="function"><name>BlueJewel</name></member>
+    <member refid="classBlueJewel_1a328f44284e91d9cf91ac3ffcfe63cc92" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classEmptyCell" kind="class"><name>EmptyCell</name>
+    <member refid="classEmptyCell_1a168891c2112c7c1ea2a15e9e20a4b020" kind="property"><name>X</name></member>
+    <member refid="classEmptyCell_1a05d0da9b1f3db3272a26a9ba8177121a" kind="property"><name>Y</name></member>
+    <member refid="classEmptyCell_1aff13d91a4e37ee72517d214c1164e9d1" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classGreenJewel" kind="class"><name>GreenJewel</name>
+    <member refid="classGreenJewel_1aa4be9ab4fb275a1d0a2aa5276a186819" kind="function"><name>GreenJewel</name></member>
+    <member refid="classGreenJewel_1a989f08a7a432a81ae9c1474b9bcf1d42" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="interfaceICell" kind="interface"><name>ICell</name>
+    <member refid="interfaceICell_1a0bee85e4119378ee352804f55ff10796" kind="property"><name>X</name></member>
+    <member refid="interfaceICell_1a1dabaaf8968793fda0ef46a6326c2353" kind="property"><name>Y</name></member>
+  </compound>
+  <compound refid="interfaceICollectable" kind="interface"><name>ICollectable</name>
+    <member refid="interfaceICollectable_1a8a57a01710ce5a06f7f4e4bdc4f09544" kind="property"><name>Points</name></member>
+  </compound>
+  <compound refid="interfaceIEnergySource" kind="interface"><name>IEnergySource</name>
+    <member refid="interfaceIEnergySource_1ae381aeb4b091fe3c6ab0b16b4fe6a720" kind="property"><name>Energy</name></member>
+  </compound>
+  <compound refid="classJewel" kind="class"><name>Jewel</name>
+    <member refid="classJewel_1a92728797d6e99974b1638bcc0cf8864d" kind="property"><name>X</name></member>
+    <member refid="classJewel_1a428566e8ef113de5e32111e5b9478ac8" kind="property"><name>Y</name></member>
+    <member refid="classJewel_1a2467da0c2f12bd53ab4c41123ebb6592" kind="property"><name>Points</name></member>
+    <member refid="classJewel_1ac8d2feb84a42a2bfcc8d6488a3ff1fe5" kind="function"><name>Jewel</name></member>
+  </compound>
+  <compound refid="classJewelCollector" kind="class"><name>JewelCollector</name>
+    <member refid="classJewelCollector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="classMap" kind="class"><name>Map</name>
+    <member refid="classMap_1adfa3eba04c97e25011fb795eb806c77e" kind="property"><name>Cells</name></member>
+    <member refid="classMap_1af020476bbce3b6eb3e74621d8503a957" kind="function"><name>Map</name></member>
+    <member refid="classMap_1a97f41cbe9be61fd605ec694d4da1b927" kind="function"><name>isEmpty</name></member>
+    <member refid="classMap_1a39de3175089e99ec00445f8a26d9deb0" kind="function"><name>levelUp</name></member>
+    <member refid="classMap_1a2ff50d06940303f21c4dd5ab16d728ed" kind="function"><name>PrintMap</name></member>
+    <member refid="classMap_1a96ca20b0d7c13d2b36ceb5052676bae2" kind="function"><name>AddCell</name></member>
+    <member refid="classMap_1a831752b3ed31e71806add104f7d51345" kind="function"><name>RemoveCell</name></member>
+    <member refid="classMap_1aac08942102aebab59ce7879ee1bc7a5f" kind="function"><name>InitializeEmptyCells</name></member>
+  </compound>
+  <compound refid="classObstacle" kind="class"><name>Obstacle</name>
+    <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" kind="property"><name>X</name></member>
+    <member refid="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" kind="property"><name>Y</name></member>
+    <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" kind="function"><name>Obstacle</name></member>
+  </compound>
+  <compound refid="classRadioactiveElement" kind="class"><name>RadioactiveElement</name>
+    <member refid="classRadioactiveElement_1ac18efaf24ee877c54f303f3a14f4844c" kind="property"><name>X</name></member>
+    <member refid="classRadioactiveElement_1a7700ef307d6372ea41021c58d29809a9" kind="property"><name>Y</name></member>
+    <member refid="classRadioactiveElement_1aef245885fc57e32cbde52d3cdc048870" kind="property"><name>Symbol</name></member>
+    <member refid="classRadioactiveElement_1a22fd760f0d300e849e77558ba0a6d899" kind="function"><name>RadioactiveElement</name></member>
+    <member refid="classRadioactiveElement_1a08d913efeb4a4fa0c07e4062a682c4c0" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classRedJewel" kind="class"><name>RedJewel</name>
+    <member refid="classRedJewel_1ad16f5c0bf86e265e6655c83f0cd6b6f8" kind="function"><name>RedJewel</name></member>
+    <member refid="classRedJewel_1afc938a44fc19d1750d839fe1b7bf9fa5" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classRobot" kind="class"><name>Robot</name>
+    <member refid="classRobot_1a4772203d14e274b4d6cc9f1f41f536b9" kind="property"><name>X</name></member>
+    <member refid="classRobot_1a56e85ffab5e3dd8f75e536a8ee9a673f" kind="property"><name>Y</name></member>
+    <member refid="classRobot_1a1f8114a79cb4fa675ee6b1a7e2604420" kind="property"><name>Bag</name></member>
+    <member refid="classRobot_1a04e43b7462442b9dcf83a77dd4129308" kind="property"><name>TotalScore</name></member>
+    <member refid="classRobot_1a366b3d412fce80ccb5cd4ef9c60bd98c" kind="property"><name>TotalJewels</name></member>
+    <member refid="classRobot_1aa5424412c28c4b707749a25226fff1fe" kind="property"><name>Symbol</name></member>
+    <member refid="classRobot_1a4fb30184ce4e96545fe9adadcd954d52" kind="property"><name>TotalEnergy</name></member>
+    <member refid="classRobot_1ae72924cbb5570401f991d423986e5243" kind="function"><name>Robot</name></member>
+    <member refid="classRobot_1aed061149ee64c92005663cdd1f3d2864" kind="function"><name>NeighborIsRadioactiveElement</name></member>
+    <member refid="classRobot_1a965ea6878fd228b3d2bd7c4a438e1ca1" kind="function"><name>MoveNorth</name></member>
+    <member refid="classRobot_1a2e62c901662f0581a9f9a826885c98e6" kind="function"><name>MoveWest</name></member>
+    <member refid="classRobot_1a7e37929e648b18fd6dd1c266629fb05f" kind="function"><name>MoveSouth</name></member>
+    <member refid="classRobot_1ae9b3829af56d85200ebc84b89551866d" kind="function"><name>MoveEast</name></member>
+    <member refid="classRobot_1a46d83c15bf78ed018392b4bbfde62684" kind="function"><name>setPos</name></member>
+    <member refid="classRobot_1a74d2fc37202f246f72f138821efd9e42" kind="function"><name>CollectCollectable</name></member>
+    <member refid="classRobot_1a28451bab9229c5179df038d85506fd4d" kind="function"><name>PrintStats</name></member>
+    <member refid="classRobot_1a5cc8821a18984f094d8668c6e6b1a9b0" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classTree" kind="class"><name>Tree</name>
+    <member refid="classTree_1a9277665cc64ea4ca9294394f1724709e" kind="property"><name>Energy</name></member>
+    <member refid="classTree_1a28018e4926f0c510f7d47218440eb93e" kind="property"><name>Points</name></member>
+    <member refid="classTree_1aa914109b657c92ca3e011303ce505510" kind="function"><name>Tree</name></member>
+    <member refid="classTree_1aec93d504d7db4b76b74f64b0f4523cba" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classWater" kind="class"><name>Water</name>
+    <member refid="classWater_1a652f8338031d68b1ecaeccd15f754d78" kind="property"><name>Energy</name></member>
+    <member refid="classWater_1ae85dbe7ba28e3fa376cd5af51e3e77e9" kind="function"><name>Water</name></member>
+    <member refid="classWater_1a9ff35b972c6608da9cc28c74b0334944" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="namespaceglobal_1_1System" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1Collections_1_1Generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1IO" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1Linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1Net_1_1Http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1Threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1System_1_1Threading_1_1Tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespaceSystem" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespaceSystem_1_1Reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="BlueJewel_8cs" kind="file"><name>BlueJewel.cs</name>
+  </compound>
+  <compound refid="EmptyCell_8cs" kind="file"><name>EmptyCell.cs</name>
+  </compound>
+  <compound refid="GreenJewel_8cs" kind="file"><name>GreenJewel.cs</name>
+  </compound>
+  <compound refid="ICell_8cs" kind="file"><name>ICell.cs</name>
+  </compound>
+  <compound refid="ICollectable_8cs" kind="file"><name>ICollectable.cs</name>
+  </compound>
+  <compound refid="IEnergySource_8cs" kind="file"><name>IEnergySource.cs</name>
+  </compound>
+  <compound refid="Jewel_8cs" kind="file"><name>Jewel.cs</name>
+  </compound>
+  <compound refid="JewelCollector_8cs" kind="file"><name>JewelCollector.cs</name>
+  </compound>
+  <compound refid="Map_8cs" kind="file"><name>Map.cs</name>
+  </compound>
+  <compound refid="_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="JewelCollector_8AssemblyInfo_8cs" kind="file"><name>JewelCollector.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="JewelCollector_8GlobalUsings_8g_8cs" kind="file"><name>JewelCollector.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="Obstacle_8cs" kind="file"><name>Obstacle.cs</name>
+  </compound>
+  <compound refid="RadioactiveElement_8cs" kind="file"><name>RadioactiveElement.cs</name>
+  </compound>
+  <compound refid="RedJewel_8cs" kind="file"><name>RedJewel.cs</name>
+  </compound>
+  <compound refid="Robot_8cs" kind="file"><name>Robot.cs</name>
+  </compound>
+  <compound refid="Tree_8cs" kind="file"><name>Tree.cs</name>
+  </compound>
+  <compound refid="Water_8cs" kind="file"><name>Water.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_7212c827820ef56532d3599ed27e3aff" kind="dir"><name>obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+</doxygenindex>

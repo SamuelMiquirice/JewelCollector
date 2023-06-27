@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classMap" kind="class" language="C#" prot="public">
+    <compoundname>Map</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classMap_1adfa3eba04c97e25011fb795eb806c77e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interfaceICell" kindref="compound">ICell</ref>[,]</type>
+        <definition>ICell [,] Map.Cells</definition>
+        <argsstring></argsstring>
+        <name>Cells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="17" column="18" bodyfile="Map.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMap_1af020476bbce3b6eb3e74621d8503a957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Map.Map</definition>
+        <argsstring>()</argsstring>
+        <name>Map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="19" column="12" bodyfile="Map.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMap_1a97f41cbe9be61fd605ec694d4da1b927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Map.isEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+<para>Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se o mapa foi finalizado. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>e possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="33" column="17" bodyfile="Map.cs" bodystart="33" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classMap_1a39de3175089e99ec00445f8a26d9deb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.levelUp</definition>
+        <argsstring>(Robot robot)</argsstring>
+        <name>levelUp</name>
+        <param>
+          <type><ref refid="classRobot" kindref="compound">Robot</ref></type>
+          <declname>robot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="53" column="17" bodyfile="Map.cs" bodystart="53" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMap_1a2ff50d06940303f21c4dd5ab16d728ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.PrintMap</definition>
+        <argsstring>(Robot robot)</argsstring>
+        <name>PrintMap</name>
+        <param>
+          <type><ref refid="classRobot" kindref="compound">Robot</ref></type>
+          <declname>robot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="121" column="17" bodyfile="Map.cs" bodystart="121" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMap_1a96ca20b0d7c13d2b36ceb5052676bae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.AddCell</definition>
+        <argsstring>(ICell cell)</argsstring>
+        <name>AddCell</name>
+        <param>
+          <type><ref refid="interfaceICell" kindref="compound">ICell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="145" column="17" bodyfile="Map.cs" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMap_1a831752b3ed31e71806add104f7d51345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.RemoveCell</definition>
+        <argsstring>(ICell cell)</argsstring>
+        <name>RemoveCell</name>
+        <param>
+          <type><ref refid="interfaceICell" kindref="compound">ICell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="149" column="17" bodyfile="Map.cs" bodystart="149" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMap_1aac08942102aebab59ce7879ee1bc7a5f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Map.InitializeEmptyCells</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeEmptyCells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Map.cs" line="137" column="18" bodyfile="Map.cs" bodystart="137" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe armazena as informações do mapa 2D e implementar métodos para adição e remoção de joias e obstáculos. A classe implementa um método que imprimir o mapa na tela. A impressão do mapa segue as seguintes regras: Robo será impresso como ME; Joias Red, como JR; Joias Green, como JG; Joias Blue, como JB; Obstáculos do tipo <ref refid="classTree" kindref="compound">Tree</ref>, como $$; Obstáculos do tipo <ref refid="classWater" kindref="compound">Water</ref>, como ##; Espaços vazios, como <ndash/>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Map.cs" line="16" column="7" bodyfile="Map.cs" bodystart="16" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classMap_1a96ca20b0d7c13d2b36ceb5052676bae2" prot="public" virt="non-virtual"><scope>Map</scope><name>AddCell</name></member>
+      <member refid="classMap_1adfa3eba04c97e25011fb795eb806c77e" prot="public" virt="non-virtual"><scope>Map</scope><name>Cells</name></member>
+      <member refid="classMap_1aac08942102aebab59ce7879ee1bc7a5f" prot="private" virt="non-virtual"><scope>Map</scope><name>InitializeEmptyCells</name></member>
+      <member refid="classMap_1a97f41cbe9be61fd605ec694d4da1b927" prot="public" virt="non-virtual"><scope>Map</scope><name>isEmpty</name></member>
+      <member refid="classMap_1a39de3175089e99ec00445f8a26d9deb0" prot="public" virt="non-virtual"><scope>Map</scope><name>levelUp</name></member>
+      <member refid="classMap_1af020476bbce3b6eb3e74621d8503a957" prot="public" virt="non-virtual"><scope>Map</scope><name>Map</name></member>
+      <member refid="classMap_1a2ff50d06940303f21c4dd5ab16d728ed" prot="public" virt="non-virtual"><scope>Map</scope><name>PrintMap</name></member>
+      <member refid="classMap_1a831752b3ed31e71806add104f7d51345" prot="public" virt="non-virtual"><scope>Map</scope><name>RemoveCell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

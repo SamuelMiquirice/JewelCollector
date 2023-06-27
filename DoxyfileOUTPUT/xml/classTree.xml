@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classTree" kind="class" language="C#" prot="public">
+    <compoundname>Tree</compoundname>
+    <basecompoundref refid="classObstacle" prot="public" virt="non-virtual">Obstacle</basecompoundref>
+    <basecompoundref refid="interfaceIEnergySource" prot="public" virt="non-virtual">IEnergySource</basecompoundref>
+    <basecompoundref refid="interfaceICollectable" prot="public" virt="non-virtual">ICollectable</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classTree_1a9277665cc64ea4ca9294394f1724709e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Tree.Energy</definition>
+        <argsstring></argsstring>
+        <name>Energy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="6" column="16" bodyfile="Tree.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="classTree_1a28018e4926f0c510f7d47218440eb93e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Tree.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="7" column="16" bodyfile="Tree.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTree_1aa914109b657c92ca3e011303ce505510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tree.Tree</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Tree</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="9" column="12" bodyfile="Tree.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classTree_1aec93d504d7db4b76b74f64b0f4523cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Tree.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="14" column="28" bodyfile="Tree.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe herda as caraterísticas da classe <ref refid="classObstacle" kindref="compound">Obstacle</ref>, por tratar-se de um tipo de obstáculo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="1">
+        <label>Tree</label>
+        <link refid="classTree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+      <node id="4">
+        <label>IEnergySource</label>
+        <link refid="interfaceIEnergySource"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="1">
+        <label>Tree</label>
+        <link refid="classTree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+      <node id="4">
+        <label>IEnergySource</label>
+        <link refid="interfaceIEnergySource"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tree.cs" line="4" column="7" bodyfile="Tree.cs" bodystart="4" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classTree_1a9277665cc64ea4ca9294394f1724709e" prot="public" virt="non-virtual"><scope>Tree</scope><name>Energy</name></member>
+      <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" prot="public" virt="non-virtual"><scope>Tree</scope><name>Obstacle</name></member>
+      <member refid="classTree_1a28018e4926f0c510f7d47218440eb93e" prot="public" virt="non-virtual"><scope>Tree</scope><name>Points</name></member>
+      <member refid="classTree_1aec93d504d7db4b76b74f64b0f4523cba" prot="public" virt="non-virtual"><scope>Tree</scope><name>ToString</name></member>
+      <member refid="classTree_1aa914109b657c92ca3e011303ce505510" prot="public" virt="non-virtual"><scope>Tree</scope><name>Tree</name></member>
+      <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" prot="public" virt="non-virtual"><scope>Tree</scope><name>X</name></member>
+      <member refid="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" prot="public" virt="non-virtual"><scope>Tree</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

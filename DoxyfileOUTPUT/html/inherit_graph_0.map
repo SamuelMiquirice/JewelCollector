@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="29,259,80,285"/>
+<area shape="rect" id="node2" href="$classEmptyCell.html" title="Essa classe mostra as células vazia no mapa." alt="" coords="184,309,273,336"/>
+<area shape="rect" id="node3" href="$classJewel.html" title="Essa é a classe, armazena as informações da joia, como a posição (x, y) no mapa e o tipo,..." alt="" coords="200,56,257,83"/>
+<area shape="rect" id="node7" href="$classObstacle.html" title="Essa é a classe, armazena as informações do obstáculo, que é a posição (x, y) e o tipo...." alt="" coords="189,208,268,235"/>
+<area shape="rect" id="node10" href="$classRadioactiveElement.html" title="Essa é a classe, que implementa o efeito radiotivo, imprimindo &quot;!!&quot; no mapa em representação do eleme..." alt="" coords="152,259,305,285"/>
+<area shape="rect" id="node11" href="$classRobot.html" title="Essa é a classe, que controla o comportamento de um robô, criado na posição (x, y) = (0,..." alt="" coords="199,360,259,387"/>
+<area shape="rect" id="node4" href="$classBlueJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="358,107,445,133"/>
+<area shape="rect" id="node5" href="$classGreenJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="353,56,449,83"/>
+<area shape="rect" id="node6" href="$classRedJewel.html" title="Essa classe herda as caraterísticas da classe Jewel, por tratar&#45;se de um tipo de joia." alt="" coords="360,5,443,32"/>
+<area shape="rect" id="node8" href="$classTree.html" title="Essa classe herda as caraterísticas da classe Obstacle, por tratar&#45;se de um tipo de obstáculo." alt="" coords="377,157,426,184"/>
+<area shape="rect" id="node9" href="$classWater.html" title="Essa classe herda as caraterísticas da classe Obstacle, por tratar&#45;se de um tipo de obstáculo." alt="" coords="371,208,431,235"/>
+<area shape="rect" id="node12" href="$interfaceICollectable.html" title="Essa interface é para auxiliar na coleção de pontos, sabendo que: Os itens Tree e Blue Jewel fornecer..." alt="" coords="5,107,104,133"/>
+<area shape="rect" id="node13" href="$interfaceIEnergySource.html" title="Essa interface é para realizar as seguintes ações: Os itens Tree e Blue Jewel fornecerão energia para..." alt="" coords="171,107,286,133"/>
+</map>

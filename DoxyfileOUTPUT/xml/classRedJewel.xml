@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classRedJewel" kind="class" language="C#" prot="public">
+    <compoundname>RedJewel</compoundname>
+    <basecompoundref refid="classJewel" prot="public" virt="non-virtual">Jewel</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRedJewel_1ad16f5c0bf86e265e6655c83f0cd6b6f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RedJewel.RedJewel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>RedJewel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedJewel.cs" line="6" column="12" bodyfile="RedJewel.cs" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classRedJewel_1afc938a44fc19d1750d839fe1b7bf9fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string RedJewel.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedJewel.cs" line="10" column="28" bodyfile="RedJewel.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe herda as caraterísticas da classe <ref refid="classJewel" kindref="compound">Jewel</ref>, por tratar-se de um tipo de joia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>RedJewel</label>
+        <link refid="classRedJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>RedJewel</label>
+        <link refid="classRedJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="RedJewel.cs" line="4" column="7" bodyfile="RedJewel.cs" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classJewel_1ac8d2feb84a42a2bfcc8d6488a3ff1fe5" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>Jewel</name></member>
+      <member refid="classJewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>Points</name></member>
+      <member refid="classRedJewel_1ad16f5c0bf86e265e6655c83f0cd6b6f8" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>RedJewel</name></member>
+      <member refid="classRedJewel_1afc938a44fc19d1750d839fe1b7bf9fa5" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>ToString</name></member>
+      <member refid="classJewel_1a92728797d6e99974b1638bcc0cf8864d" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>X</name></member>
+      <member refid="classJewel_1a428566e8ef113de5e32111e5b9478ac8" prot="public" virt="non-virtual"><scope>RedJewel</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

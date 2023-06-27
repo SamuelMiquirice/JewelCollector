@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGreenJewel" kind="class" language="C#" prot="public">
+    <compoundname>GreenJewel</compoundname>
+    <basecompoundref refid="classJewel" prot="public" virt="non-virtual">Jewel</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGreenJewel_1aa4be9ab4fb275a1d0a2aa5276a186819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GreenJewel.GreenJewel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GreenJewel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GreenJewel.cs" line="6" column="12" bodyfile="GreenJewel.cs" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classGreenJewel_1a989f08a7a432a81ae9c1474b9bcf1d42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GreenJewel.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="GreenJewel.cs" line="10" column="28" bodyfile="GreenJewel.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe herda as caraterísticas da classe <ref refid="classJewel" kindref="compound">Jewel</ref>, por tratar-se de um tipo de joia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GreenJewel</label>
+        <link refid="classGreenJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>ICollectable</label>
+        <link refid="interfaceICollectable"/>
+      </node>
+      <node id="2">
+        <label>Jewel</label>
+        <link refid="classJewel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GreenJewel</label>
+        <link refid="classGreenJewel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="GreenJewel.cs" line="4" column="7" bodyfile="GreenJewel.cs" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classGreenJewel_1aa4be9ab4fb275a1d0a2aa5276a186819" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>GreenJewel</name></member>
+      <member refid="classJewel_1ac8d2feb84a42a2bfcc8d6488a3ff1fe5" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>Jewel</name></member>
+      <member refid="classJewel_1a2467da0c2f12bd53ab4c41123ebb6592" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>Points</name></member>
+      <member refid="classGreenJewel_1a989f08a7a432a81ae9c1474b9bcf1d42" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>ToString</name></member>
+      <member refid="classJewel_1a92728797d6e99974b1638bcc0cf8864d" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>X</name></member>
+      <member refid="classJewel_1a428566e8ef113de5e32111e5b9478ac8" prot="public" virt="non-virtual"><scope>GreenJewel</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

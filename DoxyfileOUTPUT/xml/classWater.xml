@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classWater" kind="class" language="C#" prot="public">
+    <compoundname>Water</compoundname>
+    <basecompoundref refid="classObstacle" prot="public" virt="non-virtual">Obstacle</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classWater_1a652f8338031d68b1ecaeccd15f754d78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Water.Energy</definition>
+        <argsstring></argsstring>
+        <name>Energy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Water.cs" line="6" column="16" bodyfile="Water.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWater_1ae85dbe7ba28e3fa376cd5af51e3e77e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Water.Water</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Water</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Water.cs" line="7" column="12" bodyfile="Water.cs" bodystart="7" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classWater_1a9ff35b972c6608da9cc28c74b0334944" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Water.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Water.cs" line="10" column="28" bodyfile="Water.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe herda as caraterísticas da classe <ref refid="classObstacle" kindref="compound">Obstacle</ref>, por tratar-se de um tipo de obstáculo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Water</label>
+        <link refid="classWater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Water</label>
+        <link refid="classWater"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="Water.cs" line="4" column="7" bodyfile="Water.cs" bodystart="4" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classWater_1a652f8338031d68b1ecaeccd15f754d78" prot="public" virt="non-virtual"><scope>Water</scope><name>Energy</name></member>
+      <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" prot="public" virt="non-virtual"><scope>Water</scope><name>Obstacle</name></member>
+      <member refid="classWater_1a9ff35b972c6608da9cc28c74b0334944" prot="public" virt="non-virtual"><scope>Water</scope><name>ToString</name></member>
+      <member refid="classWater_1ae85dbe7ba28e3fa376cd5af51e3e77e9" prot="public" virt="non-virtual"><scope>Water</scope><name>Water</name></member>
+      <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" prot="public" virt="non-virtual"><scope>Water</scope><name>X</name></member>
+      <member refid="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" prot="public" virt="non-virtual"><scope>Water</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

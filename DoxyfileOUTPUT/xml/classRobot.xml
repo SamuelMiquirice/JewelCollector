@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classRobot" kind="class" language="C#" prot="public">
+    <compoundname>Robot</compoundname>
+    <basecompoundref refid="interfaceICell" prot="public" virt="non-virtual">ICell</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classRobot_1a4772203d14e274b4d6cc9f1f41f536b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="8" column="16" bodyfile="Robot.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1a56e85ffab5e3dd8f75e536a8ee9a673f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="9" column="16" bodyfile="Robot.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1a1f8114a79cb4fa675ee6b1a7e2604420" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interfaceICell" kindref="compound">ICell</ref> &gt;</type>
+        <definition>List&lt;ICell&gt; Robot.Bag</definition>
+        <argsstring></argsstring>
+        <name>Bag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="10" column="17" bodyfile="Robot.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1a04e43b7462442b9dcf83a77dd4129308" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.TotalScore</definition>
+        <argsstring></argsstring>
+        <name>TotalScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="11" column="16" bodyfile="Robot.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1a366b3d412fce80ccb5cd4ef9c60bd98c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.TotalJewels</definition>
+        <argsstring></argsstring>
+        <name>TotalJewels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="12" column="16" bodyfile="Robot.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1aa5424412c28c4b707749a25226fff1fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Robot.Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="14" column="19" bodyfile="Robot.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classRobot_1a4fb30184ce4e96545fe9adadcd954d52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robot.TotalEnergy</definition>
+        <argsstring></argsstring>
+        <name>TotalEnergy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="15" column="16" bodyfile="Robot.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRobot_1ae72924cbb5570401f991d423986e5243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robot.Robot</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Robot</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Este é o construtor da classe <ref refid="classRobot" kindref="compound">Robot</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Esse parámetro representa a posição do robô em função do eixo das abcisas.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Esse parámetro representa a posição do robô em função do eixo das ordenadas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="23" column="12" bodyfile="Robot.cs" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1aed061149ee64c92005663cdd1f3d2864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.NeighborIsRadioactiveElement</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>NeighborIsRadioactiveElement</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a próxima posição (cima, baixo, esquerda ou direita) do robô não contém um elemento radiotivo (elemento que lhe faz perder 10 unidades de energia quando estiver ao lado do robô). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna &quot;menos 10 unidades de energia&quot;, caso o elemento radiotivo estiver próximo (ao lado) do robô (após cada jogada).</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="39" column="17" bodyfile="Robot.cs" bodystart="39" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a965ea6878fd228b3d2bd7c4a438e1ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveNorth</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>MoveNorth</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a posição a esquerda do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna &quot;menos 30 unidades de energia&quot;, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-se para a esquerda.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="68" column="17" bodyfile="Robot.cs" bodystart="68" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a2e62c901662f0581a9f9a826885c98e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveWest</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>MoveWest</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a posição abaixo do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna &quot;menos 30 unidades de energia&quot;, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-se para baixo.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="95" column="17" bodyfile="Robot.cs" bodystart="95" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a7e37929e648b18fd6dd1c266629fb05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveSouth</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>MoveSouth</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a posição a direita do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna &quot;menos 30 unidades de energia&quot;, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-se para direita.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="116" column="17" bodyfile="Robot.cs" bodystart="116" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1ae9b3829af56d85200ebc84b89551866d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.MoveEast</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>MoveEast</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a posição acima do robô não contém um obstáculo, se ainda tem energia e se não sai do limite do mapa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna &quot;menos 30 unidades de energia&quot;, caso o robô estiver em cima do elemento radiotivo após o robô deslocar-se para cima.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="137" column="17" bodyfile="Robot.cs" bodystart="137" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a46d83c15bf78ed018392b4bbfde62684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.setPos</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>setPos</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="151" column="13" bodyfile="Robot.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a74d2fc37202f246f72f138821efd9e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.CollectCollectable</definition>
+        <argsstring>(Map map)</argsstring>
+        <name>CollectCollectable</name>
+        <param>
+          <type><ref refid="classMap" kindref="compound">Map</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Este método verifica se a próxima posição (esquerda, direita, cima, baixo) do robô contém um obstáculo ou um objeto (joia) coletável (o que incrementa a energia e a pontuação) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Representa a posição no mapa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Este método retorna energia e a pontuação atual, após a coleção do objeito (joia)</para>
+</simplesect>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="163" column="13" bodyfile="Robot.cs" bodystart="163" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a28451bab9229c5179df038d85506fd4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Robot.PrintStats</definition>
+        <argsstring>()</argsstring>
+        <name>PrintStats</name>
+        <briefdescription>
+<para>Este método imprime na tela o total de joias armazenadas na sacola e a pontuação total. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="216" column="17" bodyfile="Robot.cs" bodystart="216" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classRobot_1a5cc8821a18984f094d8668c6e6b1a9b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Robot.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robot.cs" line="222" column="28" bodyfile="Robot.cs" bodystart="222" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa é a classe, que controla o comportamento de um robô, criado na posição (x, y) = (0, 0). A classe <ref refid="classRobot" kindref="compound">Robot</ref> é responsável por armazenar as informações do robô, que será a posição (x, y) e uma sacola (bag), em que o robô colocará as joias coletadas no mapa. A classe <ref refid="classRobot" kindref="compound">Robot</ref> implementa os métodos para que o robô possa interagir com o mapa, isto é, deslocar-se nas quatro direções e coletar as joias. A classe <ref refid="classRobot" kindref="compound">Robot</ref> também implementa um método para imprimir na tela o total de joias armazenadas na sacola e o valor total. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Robot</label>
+        <link refid="classRobot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robot</label>
+        <link refid="classRobot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robot.cs" line="7" column="7" bodyfile="Robot.cs" bodystart="7" bodyend="225"/>
+    <listofallmembers>
+      <member refid="classRobot_1a1f8114a79cb4fa675ee6b1a7e2604420" prot="public" virt="non-virtual"><scope>Robot</scope><name>Bag</name></member>
+      <member refid="classRobot_1a74d2fc37202f246f72f138821efd9e42" prot="public" virt="non-virtual"><scope>Robot</scope><name>CollectCollectable</name></member>
+      <member refid="classRobot_1ae9b3829af56d85200ebc84b89551866d" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveEast</name></member>
+      <member refid="classRobot_1a965ea6878fd228b3d2bd7c4a438e1ca1" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveNorth</name></member>
+      <member refid="classRobot_1a7e37929e648b18fd6dd1c266629fb05f" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveSouth</name></member>
+      <member refid="classRobot_1a2e62c901662f0581a9f9a826885c98e6" prot="public" virt="non-virtual"><scope>Robot</scope><name>MoveWest</name></member>
+      <member refid="classRobot_1aed061149ee64c92005663cdd1f3d2864" prot="public" virt="non-virtual"><scope>Robot</scope><name>NeighborIsRadioactiveElement</name></member>
+      <member refid="classRobot_1a28451bab9229c5179df038d85506fd4d" prot="public" virt="non-virtual"><scope>Robot</scope><name>PrintStats</name></member>
+      <member refid="classRobot_1ae72924cbb5570401f991d423986e5243" prot="public" virt="non-virtual"><scope>Robot</scope><name>Robot</name></member>
+      <member refid="classRobot_1a46d83c15bf78ed018392b4bbfde62684" prot="public" virt="non-virtual"><scope>Robot</scope><name>setPos</name></member>
+      <member refid="classRobot_1aa5424412c28c4b707749a25226fff1fe" prot="public" virt="non-virtual"><scope>Robot</scope><name>Symbol</name></member>
+      <member refid="classRobot_1a5cc8821a18984f094d8668c6e6b1a9b0" prot="public" virt="non-virtual"><scope>Robot</scope><name>ToString</name></member>
+      <member refid="classRobot_1a4fb30184ce4e96545fe9adadcd954d52" prot="public" virt="non-virtual"><scope>Robot</scope><name>TotalEnergy</name></member>
+      <member refid="classRobot_1a366b3d412fce80ccb5cd4ef9c60bd98c" prot="public" virt="non-virtual"><scope>Robot</scope><name>TotalJewels</name></member>
+      <member refid="classRobot_1a04e43b7462442b9dcf83a77dd4129308" prot="public" virt="non-virtual"><scope>Robot</scope><name>TotalScore</name></member>
+      <member refid="classRobot_1a4772203d14e274b4d6cc9f1f41f536b9" prot="public" virt="non-virtual"><scope>Robot</scope><name>X</name></member>
+      <member refid="classRobot_1a56e85ffab5e3dd8f75e536a8ee9a673f" prot="public" virt="non-virtual"><scope>Robot</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

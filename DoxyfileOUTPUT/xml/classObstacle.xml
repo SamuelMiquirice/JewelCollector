@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classObstacle" kind="class" language="C#" prot="public">
+    <compoundname>Obstacle</compoundname>
+    <basecompoundref refid="interfaceICell" prot="public" virt="non-virtual">ICell</basecompoundref>
+    <derivedcompoundref refid="classTree" prot="public" virt="non-virtual">Tree</derivedcompoundref>
+    <derivedcompoundref refid="classWater" prot="public" virt="non-virtual">Water</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Obstacle.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Obstacle.cs" line="20" column="16" bodyfile="Obstacle.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Obstacle.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Obstacle.cs" line="21" column="16" bodyfile="Obstacle.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Obstacle.Obstacle</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Obstacle</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Obstacle.cs" line="23" column="12" bodyfile="Obstacle.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa é a classe, armazena as informações do obstáculo, que é a posição (x, y) e o tipo. Cada obstáculo possui um tipo, que pode ser <ref refid="classWater" kindref="compound">Water</ref> ou <ref refid="classTree" kindref="compound">Tree</ref>. <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Tree</label>
+        <link refid="classTree"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Water</label>
+        <link refid="classWater"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Obstacle</label>
+        <link refid="classObstacle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICell</label>
+        <link refid="interfaceICell"/>
+      </node>
+    </collaborationgraph>
+    <location file="Obstacle.cs" line="19" column="7" bodyfile="Obstacle.cs" bodystart="19" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>Obstacle</name></member>
+      <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>X</name></member>
+      <member refid="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

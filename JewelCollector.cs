@@ -1,18 +1,8 @@
-﻿// Desenvolva o minigame chamado Jewel Collector. O objetivo desse jogo é que um robô, 
+﻿
+// Desenvolva o minigame chamado Jewel Collector. O objetivo desse jogo é que um robô, 
 // controlado pelo teclado, se desloque por um mapa 2D de modo a desviar dos obstáculos 
 // e coletar todas as joias. Para isso, as seguintes classes devem ser criadas: Jewel.cs,
 // Obstacle.cs, Robot.cs, Map.cs, JewelCollector.cs
-
-
-/*
-JewelCollector.cs - A classe JewelCollector deverá ser responsável por 
-implementar o método Main(), criar o mapa, inserir as joias, obstáculos,
-instanciar o robô e ler os comandos do teclado. Para que o usuário possa 
-controlar o robô, os seguintes comandos deverão ser passados através das 
-teclas w, s, a, d, g. Sendo que a tecla w desloca o robô para o norte, a 
-tecla s desloca para o sul, a tecla a desloca para oeste e a tecla d para
-leste. Para coletar uma joia, use a tecla g. 
-*/
 
 
 // Inicie o jogo, isto é, leia o teclado e colete todas as joias e desvie 
@@ -40,6 +30,11 @@ leste. Para coletar uma joia, use a tecla g.
 //       } while (running);
 //   }
 
+/// <summary>
+/// Essa é a classe principal, que é responsável por implementar o método Main() que chama as demais classes existentes no projeto, criar o mapa, inserir as joias, obstáculos, instanciar o robô e ler os comandos do teclado. 
+/// Para que o usuário possa controlar o robô, os seguintes comandos deverão ser passados através das teclas w, s, a, d, g. 
+/// Sendo que a tecla "w" desloca o robô para o norte, a tecla "s" desloca para o sul, a tecla "a" desloca para oeste e a tecla "d" para leste. Para coletar uma joia, o usuário deve usar a tecla "g".  
+/// </summary>
 
 
 public class JewelCollector {
@@ -108,7 +103,9 @@ public class JewelCollector {
 
         bool isGameRunning = true;
 
-        do {
+        //do {
+        while (isGameRunning){
+        try {
             map.PrintMap(robot);
             // Console.WriteLine("Enter the command: ");
             ConsoleKeyInfo command = Console.ReadKey();
@@ -127,6 +124,33 @@ public class JewelCollector {
                 robot.CollectCollectable(map);
             }
 
+      //  try   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       // {
+        //     robot.MoveEast(map);
+        //     robot.MoveSouth(map);
+        //     robot.MoveSouth(map);
+        //     robot.MoveWest(map);
+        //     robot.MoveNorth(map);
+        //     robot.CollectCollectable(map);
+        //     robot.CollectCollectable(map);
+        //     robot.CollectCollectable(map);
+        }
+        catch (NoEnergyToRunException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (InvalidPositionToStayException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+        Console.WriteLine("Total Score: " + robot.TotalScore);
+        Console.WriteLine("Total Jewels: " + robot.TotalJewels);
+        Console.WriteLine("Total Energy: " + robot.TotalEnergy);
+    // }
+
+            ///////////////////////////////////////////////
+
             map.PrintMap(robot);
 
             if(robot.TotalEnergy <= 0){
@@ -134,11 +158,19 @@ public class JewelCollector {
             }
 
             if(map.isEmpty()){
-                map.levelUp(robot);
+                // map.levelUp(robot);
+                try {
+                    map.levelUp(robot);
+                } catch (OutOfTheBorderOfMapException ex) {
+                    Console.WriteLine(ex.Message);
+                }
 
-            }
+                map.PrintMap(robot);
+           }
+
+        }
            
 
-        } while (isGameRunning);
+        // } while (isGameRunning);
     }
 }

@@ -1,3 +1,7 @@
+
+/// <summary>
+/// Essa é a classe, que implementa o efeito radiotivo, imprimindo "!!" no mapa em representação do elemento com efeito radiotivo.
+/// </summary>
 public class RadioactiveElement : ICell
 {
     public int X { get; private set; }
@@ -39,6 +43,10 @@ public class RadioactiveElement : ICell
     //     return (Math.Abs(x - X) == 1 && y == Y) || (Math.Abs(y - Y) == 1 && x == X);
     // }
 
+/// <summary>
+/// Esse imprime (subscreve) "!!" no lugar do nome da classe "RadioactiveElement" no mapa.
+/// </summary>
+/// <returns> Retorna "!!".</returns>
     public override string ToString() {  
         return "!!";   // Imprime/subscreve "!!" no lugar de RadioactiveElement no mapa do jogo
     }

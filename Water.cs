@@ -1,3 +1,6 @@
+/// <summary>
+/// Essa classe herda as caraterísticas da classe Obstacle, por tratar-se de um tipo de obstáculo.
+/// </summary>
 public class Water : Obstacle {
 
     public int Energy { get; }

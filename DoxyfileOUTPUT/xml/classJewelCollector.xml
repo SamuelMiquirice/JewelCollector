@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classJewelCollector" kind="class" language="C#" prot="public">
+    <compoundname>JewelCollector</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classJewelCollector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void JewelCollector.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="JewelCollector.cs" line="39" column="24" bodyfile="JewelCollector.cs" bodystart="39" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa é a classe principal, que é responsável por implementar o método <ref refid="classJewelCollector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" kindref="member">Main()</ref> que chama as demais classes existentes no projeto, criar o mapa, inserir as joias, obstáculos, instanciar o robô e ler os comandos do teclado. Para que o usuário possa controlar o robô, os seguintes comandos deverão ser passados através das teclas w, s, a, d, g. Sendo que a tecla &quot;w&quot; desloca o robô para o norte, a tecla &quot;s&quot; desloca para o sul, a tecla &quot;a&quot; desloca para oeste e a tecla &quot;d&quot; para leste. Para coletar uma joia, o usuário deve usar a tecla &quot;g&quot;. <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="JewelCollector.cs" line="38" column="7" bodyfile="JewelCollector.cs" bodystart="38" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classJewelCollector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" prot="public" virt="non-virtual"><scope>JewelCollector</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

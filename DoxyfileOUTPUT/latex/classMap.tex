@@ -1,0 +1,112 @@
+\hypertarget{classMap}{}\doxysection{Map Class Reference}
+\label{classMap}\index{Map@{Map}}
+
+
+Essa classe armazena as informações do mapa 2D e implementar métodos para adição e remoção de joias e obstáculos. A classe implementa um método que imprimir o mapa na tela. A impressão do mapa segue as seguintes regras\+: Robo será impresso como ME; Joias Red, como JR; Joias Green, como JG; Joias Blue, como JB; Obstáculos do tipo \mbox{\hyperlink{classTree}{Tree}}, como \$\$; Obstáculos do tipo \mbox{\hyperlink{classWater}{Water}}, como \#\#; Espaços vazios, como --.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMap_af020476bbce3b6eb3e74621d8503a957}{Map}} ()
+\item 
+bool \mbox{\hyperlink{classMap_a97f41cbe9be61fd605ec694d4da1b927}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se o mapa foi finalizado. ~\newline
+ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMap_a39de3175089e99ec00445f8a26d9deb0}{level\+Up}} (\mbox{\hyperlink{classRobot}{Robot}} robot)
+\item 
+void \mbox{\hyperlink{classMap_a2ff50d06940303f21c4dd5ab16d728ed}{Print\+Map}} (\mbox{\hyperlink{classRobot}{Robot}} robot)
+\item 
+void \mbox{\hyperlink{classMap_a96ca20b0d7c13d2b36ceb5052676bae2}{Add\+Cell}} (\mbox{\hyperlink{interfaceICell}{ICell}} cell)
+\item 
+void \mbox{\hyperlink{classMap_a831752b3ed31e71806add104f7d51345}{Remove\+Cell}} (\mbox{\hyperlink{interfaceICell}{ICell}} cell)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceICell}{ICell}}\mbox{[},\mbox{]} \mbox{\hyperlink{classMap_adfa3eba04c97e25011fb795eb806c77e}{Cells}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMap_aac08942102aebab59ce7879ee1bc7a5f}{Initialize\+Empty\+Cells}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Essa classe armazena as informações do mapa 2D e implementar métodos para adição e remoção de joias e obstáculos. A classe implementa um método que imprimir o mapa na tela. A impressão do mapa segue as seguintes regras\+: Robo será impresso como ME; Joias Red, como JR; Joias Green, como JG; Joias Blue, como JB; Obstáculos do tipo \mbox{\hyperlink{classTree}{Tree}}, como \$\$; Obstáculos do tipo \mbox{\hyperlink{classWater}{Water}}, como \#\#; Espaços vazios, como --. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMap_af020476bbce3b6eb3e74621d8503a957}\label{classMap_af020476bbce3b6eb3e74621d8503a957}} 
+\index{Map@{Map}!Map@{Map}}
+\index{Map@{Map}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{Map()}{Map()}}
+{\footnotesize\ttfamily Map.\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMap_a96ca20b0d7c13d2b36ceb5052676bae2}\label{classMap_a96ca20b0d7c13d2b36ceb5052676bae2}} 
+\index{Map@{Map}!AddCell@{AddCell}}
+\index{AddCell@{AddCell}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{AddCell()}{AddCell()}}
+{\footnotesize\ttfamily void Map.\+Add\+Cell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceICell}{ICell}}}]{cell }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classMap_aac08942102aebab59ce7879ee1bc7a5f}\label{classMap_aac08942102aebab59ce7879ee1bc7a5f}} 
+\index{Map@{Map}!InitializeEmptyCells@{InitializeEmptyCells}}
+\index{InitializeEmptyCells@{InitializeEmptyCells}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{InitializeEmptyCells()}{InitializeEmptyCells()}}
+{\footnotesize\ttfamily void Map.\+Initialize\+Empty\+Cells (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMap_a97f41cbe9be61fd605ec694d4da1b927}\label{classMap_a97f41cbe9be61fd605ec694d4da1b927}} 
+\index{Map@{Map}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Map.\+is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se o mapa foi finalizado. ~\newline
+ 
+
+\begin{DoxyReturn}{Returns}
+e possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classMap_a39de3175089e99ec00445f8a26d9deb0}\label{classMap_a39de3175089e99ec00445f8a26d9deb0}} 
+\index{Map@{Map}!levelUp@{levelUp}}
+\index{levelUp@{levelUp}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{levelUp()}{levelUp()}}
+{\footnotesize\ttfamily void Map.\+level\+Up (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRobot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+
+
+Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. \mbox{\Hypertarget{classMap_a2ff50d06940303f21c4dd5ab16d728ed}\label{classMap_a2ff50d06940303f21c4dd5ab16d728ed}} 
+\index{Map@{Map}!PrintMap@{PrintMap}}
+\index{PrintMap@{PrintMap}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{PrintMap()}{PrintMap()}}
+{\footnotesize\ttfamily void Map.\+Print\+Map (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRobot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classMap_a831752b3ed31e71806add104f7d51345}\label{classMap_a831752b3ed31e71806add104f7d51345}} 
+\index{Map@{Map}!RemoveCell@{RemoveCell}}
+\index{RemoveCell@{RemoveCell}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{RemoveCell()}{RemoveCell()}}
+{\footnotesize\ttfamily void Map.\+Remove\+Cell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfaceICell}{ICell}}}]{cell }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classMap_adfa3eba04c97e25011fb795eb806c77e}\label{classMap_adfa3eba04c97e25011fb795eb806c77e}} 
+\index{Map@{Map}!Cells@{Cells}}
+\index{Cells@{Cells}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{Cells}{Cells}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceICell}{ICell}} \mbox{[},\mbox{]} Map.\+Cells\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Map_8cs}{Map.\+cs}}\end{DoxyCompactItemize}

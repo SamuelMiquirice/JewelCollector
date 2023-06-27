@@ -1,0 +1,4 @@
+<map id="RadioactiveElement" name="RadioactiveElement">
+<area shape="rect" id="node1" title="Essa é a classe, que implementa o efeito radiotivo, imprimindo &quot;!!&quot; no mapa em representação do eleme..." alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node2" href="$interfaceICell.html" title="Essa interface é para auxiliar na localização de objetos no mapa." alt="" coords="57,5,107,32"/>
+</map>
