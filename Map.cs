@@ -1,5 +1,8 @@
 // Crie um mapa com dimensão 10x10 
 
+// namespace JewelCollector
+
+
 /// <summary>
 /// Essa classe armazena as informações do mapa 2D e implementar métodos para adição e remoção de joias e obstáculos. 
 /// A classe implementa um método que imprimir o mapa na tela. 
@@ -144,10 +147,19 @@ public class Map {
     }
 
     public void AddCell(ICell cell) {
-        Cells[cell.X, cell.Y] = cell;
-    }
+        // Cells[cell.X, cell.Y] = cell;
+        int x = cell.X;
+        int y = cell.Y;
 
-    public void RemoveCell(ICell cell) {
+        if (x >= 0 && x < 10 && y >= 0 && y < 10) {
+            Cells[x, y] = cell;
+        } else {
+            throw new OutOfTheBorderOfMapException("A posição da céluna está fora do limite do mapa.");
+        }
+    }
+    // }
+
+    public void RemoveCell(ICell cell) {  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         Cells[cell.X, cell.Y] = new EmptyCell();
     }
 

@@ -1,3 +1,4 @@
+
 /// <summary>
 /// Essa é a classe, que controla o comportamento de um robô, criado na posição (x, y) = (0, 0).
 /// A classe Robot é responsável por armazenar as informações do robô, que será a posição (x, y) e uma sacola (bag), em que o robô colocará as joias coletadas no mapa. 
@@ -204,8 +205,10 @@ public void CollectCollectable(Map map) {
 
         TotalScore += collectable.Points;
 
+        if (collectable is not Tree) {      // Para não remover a árvore ($$) do mapa
         map.RemoveCell((ICell)collectable);
         Bag.Add((ICell)collectable);
+        }
     }
 }
 
@@ -217,6 +220,7 @@ public void CollectCollectable(Map map) {
         Console.WriteLine("Total Jewels: " + TotalJewels);
         Console.WriteLine("Total Score: " + TotalScore);
         Console.WriteLine("Total Energy: " + TotalEnergy);
+        Console.WriteLine($"Current Position: ({X}, {Y})");
     }
 
     public override string ToString() {
