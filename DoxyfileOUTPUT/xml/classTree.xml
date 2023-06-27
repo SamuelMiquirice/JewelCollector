@@ -32,6 +32,19 @@
         </inbodydescription>
         <location file="Tree.cs" line="7" column="16" bodyfile="Tree.cs" bodystart="7" bodyend="7"/>
       </memberdef>
+      <memberdef kind="property" id="classTree_1a59066ac55c36d93d1e23b67456328512" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Tree.Taken</definition>
+        <argsstring></argsstring>
+        <name>Taken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tree.cs" line="9" column="17" bodyfile="Tree.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classTree_1aa914109b657c92ca3e011303ce505510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -53,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="9" column="12" bodyfile="Tree.cs" bodystart="9" bodyend="12"/>
+        <location file="Tree.cs" line="11" column="12" bodyfile="Tree.cs" bodystart="11" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="classTree_1aec93d504d7db4b76b74f64b0f4523cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -66,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Tree.cs" line="14" column="28" bodyfile="Tree.cs" bodystart="14" bodyend="16"/>
+        <location file="Tree.cs" line="18" column="28" bodyfile="Tree.cs" bodystart="18" bodyend="20"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -134,11 +147,12 @@
         <link refid="interfaceIEnergySource"/>
       </node>
     </collaborationgraph>
-    <location file="Tree.cs" line="4" column="7" bodyfile="Tree.cs" bodystart="4" bodyend="17"/>
+    <location file="Tree.cs" line="4" column="7" bodyfile="Tree.cs" bodystart="4" bodyend="21"/>
     <listofallmembers>
       <member refid="classTree_1a9277665cc64ea4ca9294394f1724709e" prot="public" virt="non-virtual"><scope>Tree</scope><name>Energy</name></member>
       <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" prot="public" virt="non-virtual"><scope>Tree</scope><name>Obstacle</name></member>
       <member refid="classTree_1a28018e4926f0c510f7d47218440eb93e" prot="public" virt="non-virtual"><scope>Tree</scope><name>Points</name></member>
+      <member refid="classTree_1a59066ac55c36d93d1e23b67456328512" prot="public" virt="non-virtual"><scope>Tree</scope><name>Taken</name></member>
       <member refid="classTree_1aec93d504d7db4b76b74f64b0f4523cba" prot="public" virt="non-virtual"><scope>Tree</scope><name>ToString</name></member>
       <member refid="classTree_1aa914109b657c92ca3e011303ce505510" prot="public" virt="non-virtual"><scope>Tree</scope><name>Tree</name></member>
       <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" prot="public" virt="non-virtual"><scope>Tree</scope><name>X</name></member>

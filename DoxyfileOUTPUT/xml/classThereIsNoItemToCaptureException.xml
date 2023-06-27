@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classThereIsNoItemToCaptureException" kind="class" language="C#" prot="public">
+    <compoundname>ThereIsNoItemToCaptureException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classThereIsNoItemToCaptureException_1a5f7a7b1282370c0cd88913fe45ca667a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThereIsNoItemToCaptureException.ThereIsNoItemToCaptureException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ThereIsNoItemToCaptureException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ThereIsNoItemToCaptureException.cs" line="7" column="12" bodyfile="ThereIsNoItemToCaptureException.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe trata as exceções quando o robô tentar sair do mapa (não respeitando as fronteiras), ou mesmo quando estiver sem energia, ou tentando realizar outras atividades que violam as regras do jogo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ThereIsNoItemToCaptureException</label>
+        <link refid="classThereIsNoItemToCaptureException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ThereIsNoItemToCaptureException</label>
+        <link refid="classThereIsNoItemToCaptureException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="ThereIsNoItemToCaptureException.cs" line="6" column="7" bodyfile="ThereIsNoItemToCaptureException.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="classThereIsNoItemToCaptureException_1a5f7a7b1282370c0cd88913fe45ca667a" prot="public" virt="non-virtual"><scope>ThereIsNoItemToCaptureException</scope><name>ThereIsNoItemToCaptureException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

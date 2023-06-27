@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classNoEnergyToRunException" kind="class" language="C#" prot="public">
+    <compoundname>NoEnergyToRunException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classNoEnergyToRunException_1a77a62b01d13efc3466519441db09adce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NoEnergyToRunException.NoEnergyToRunException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>NoEnergyToRunException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="NoEnergyToRunException.cs" line="9" column="12" bodyfile="NoEnergyToRunException.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe trata as exceções quando o robô tentar sair do mapa (não respeitando as fronteiras), ou mesmo quando estiver sem energia, ou tentando realizar outras atividades que violam as regras do jogo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NoEnergyToRunException</label>
+        <link refid="classNoEnergyToRunException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NoEnergyToRunException</label>
+        <link refid="classNoEnergyToRunException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="NoEnergyToRunException.cs" line="8" column="7" bodyfile="NoEnergyToRunException.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="classNoEnergyToRunException_1a77a62b01d13efc3466519441db09adce" prot="public" virt="non-virtual"><scope>NoEnergyToRunException</scope><name>NoEnergyToRunException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

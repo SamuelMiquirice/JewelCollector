@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classInvalidPositionToStayException" kind="class" language="C#" prot="public">
+    <compoundname>InvalidPositionToStayException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classInvalidPositionToStayException_1ad27e0080e22fa411159669bad735b6cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>InvalidPositionToStayException.InvalidPositionToStayException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>InvalidPositionToStayException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="InvalidPositionToStayException.cs" line="7" column="12" bodyfile="InvalidPositionToStayException.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe trata as exceções quando o robô tentar sair do mapa (não respeitando as fronteiras), ou mesmo quando estiver sem energia, ou tentando realizar outras atividades que violam as regras do jogo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>InvalidPositionToStayException</label>
+        <link refid="classInvalidPositionToStayException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>InvalidPositionToStayException</label>
+        <link refid="classInvalidPositionToStayException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="InvalidPositionToStayException.cs" line="6" column="7" bodyfile="InvalidPositionToStayException.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="classInvalidPositionToStayException_1ad27e0080e22fa411159669bad735b6cf" prot="public" virt="non-virtual"><scope>InvalidPositionToStayException</scope><name>InvalidPositionToStayException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

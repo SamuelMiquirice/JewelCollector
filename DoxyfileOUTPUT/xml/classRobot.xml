@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="8" column="16" bodyfile="Robot.cs" bodystart="8" bodyend="8"/>
+        <location file="Robot.cs" line="9" column="16" bodyfile="Robot.cs" bodystart="9" bodyend="9"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1a56e85ffab5e3dd8f75e536a8ee9a673f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>int</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="9" column="16" bodyfile="Robot.cs" bodystart="9" bodyend="9"/>
+        <location file="Robot.cs" line="10" column="16" bodyfile="Robot.cs" bodystart="10" bodyend="10"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1a1f8114a79cb4fa675ee6b1a7e2604420" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>List&lt; <ref refid="interfaceICell" kindref="compound">ICell</ref> &gt;</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="10" column="17" bodyfile="Robot.cs" bodystart="10" bodyend="10"/>
+        <location file="Robot.cs" line="11" column="17" bodyfile="Robot.cs" bodystart="11" bodyend="11"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1a04e43b7462442b9dcf83a77dd4129308" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="11" column="16" bodyfile="Robot.cs" bodystart="11" bodyend="11"/>
+        <location file="Robot.cs" line="12" column="16" bodyfile="Robot.cs" bodystart="12" bodyend="12"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1a366b3d412fce80ccb5cd4ef9c60bd98c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="12" column="16" bodyfile="Robot.cs" bodystart="12" bodyend="12"/>
+        <location file="Robot.cs" line="13" column="16" bodyfile="Robot.cs" bodystart="13" bodyend="13"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1aa5424412c28c4b707749a25226fff1fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="14" column="19" bodyfile="Robot.cs" bodystart="14" bodyend="-1"/>
+        <location file="Robot.cs" line="15" column="19" bodyfile="Robot.cs" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classRobot_1a4fb30184ce4e96545fe9adadcd954d52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="15" column="16" bodyfile="Robot.cs" bodystart="15" bodyend="15"/>
+        <location file="Robot.cs" line="16" column="16" bodyfile="Robot.cs" bodystart="16" bodyend="16"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="23" column="12" bodyfile="Robot.cs" bodystart="23" bodyend="30"/>
+        <location file="Robot.cs" line="24" column="12" bodyfile="Robot.cs" bodystart="24" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1aed061149ee64c92005663cdd1f3d2864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="39" column="17" bodyfile="Robot.cs" bodystart="39" bodyend="59"/>
+        <location file="Robot.cs" line="40" column="17" bodyfile="Robot.cs" bodystart="40" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a965ea6878fd228b3d2bd7c4a438e1ca1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="68" column="17" bodyfile="Robot.cs" bodystart="68" bodyend="85"/>
+        <location file="Robot.cs" line="69" column="17" bodyfile="Robot.cs" bodystart="69" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a2e62c901662f0581a9f9a826885c98e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="95" column="17" bodyfile="Robot.cs" bodystart="95" bodyend="108"/>
+        <location file="Robot.cs" line="96" column="17" bodyfile="Robot.cs" bodystart="96" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a7e37929e648b18fd6dd1c266629fb05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="116" column="17" bodyfile="Robot.cs" bodystart="116" bodyend="129"/>
+        <location file="Robot.cs" line="117" column="17" bodyfile="Robot.cs" bodystart="117" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1ae9b3829af56d85200ebc84b89551866d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="137" column="17" bodyfile="Robot.cs" bodystart="137" bodyend="149"/>
+        <location file="Robot.cs" line="138" column="17" bodyfile="Robot.cs" bodystart="138" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a46d83c15bf78ed018392b4bbfde62684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -306,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="151" column="13" bodyfile="Robot.cs" bodystart="151" bodyend="156"/>
+        <location file="Robot.cs" line="152" column="13" bodyfile="Robot.cs" bodystart="152" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a74d2fc37202f246f72f138821efd9e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="163" column="13" bodyfile="Robot.cs" bodystart="163" bodyend="210"/>
+        <location file="Robot.cs" line="164" column="13" bodyfile="Robot.cs" bodystart="164" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a28451bab9229c5179df038d85506fd4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="216" column="17" bodyfile="Robot.cs" bodystart="216" bodyend="220"/>
+        <location file="Robot.cs" line="229" column="17" bodyfile="Robot.cs" bodystart="229" bodyend="234"/>
       </memberdef>
       <memberdef kind="function" id="classRobot_1a5cc8821a18984f094d8668c6e6b1a9b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robot.cs" line="222" column="28" bodyfile="Robot.cs" bodystart="222" bodyend="224"/>
+        <location file="Robot.cs" line="236" column="28" bodyfile="Robot.cs" bodystart="236" bodyend="238"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -394,7 +394,7 @@
         <link refid="interfaceICell"/>
       </node>
     </collaborationgraph>
-    <location file="Robot.cs" line="7" column="7" bodyfile="Robot.cs" bodystart="7" bodyend="225"/>
+    <location file="Robot.cs" line="8" column="7" bodyfile="Robot.cs" bodystart="8" bodyend="239"/>
     <listofallmembers>
       <member refid="classRobot_1a1f8114a79cb4fa675ee6b1a7e2604420" prot="public" virt="non-virtual"><scope>Robot</scope><name>Bag</name></member>
       <member refid="classRobot_1a74d2fc37202f246f72f138821efd9e42" prot="public" virt="non-virtual"><scope>Robot</scope><name>CollectCollectable</name></member>

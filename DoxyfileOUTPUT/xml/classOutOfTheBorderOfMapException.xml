@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classOutOfTheBorderOfMapException" kind="class" language="C#" prot="public">
+    <compoundname>OutOfTheBorderOfMapException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOutOfTheBorderOfMapException_1aeaac3162f8356517aa0da4623b613d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OutOfTheBorderOfMapException.OutOfTheBorderOfMapException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>OutOfTheBorderOfMapException</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="OutOfTheBorderOfMapException.cs" line="8" column="12" bodyfile="OutOfTheBorderOfMapException.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Essa classe trata as exceções quando o robô tentar sair do mapa (não respeitando as fronteiras), ou mesmo quando estiver sem energia, ou tentando realizar outras atividades que violam as regras do jogo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>OutOfTheBorderOfMapException</label>
+        <link refid="classOutOfTheBorderOfMapException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>OutOfTheBorderOfMapException</label>
+        <link refid="classOutOfTheBorderOfMapException"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="OutOfTheBorderOfMapException.cs" line="7" column="7" bodyfile="OutOfTheBorderOfMapException.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classOutOfTheBorderOfMapException_1aeaac3162f8356517aa0da4623b613d0c" prot="public" virt="non-virtual"><scope>OutOfTheBorderOfMapException</scope><name>OutOfTheBorderOfMapException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

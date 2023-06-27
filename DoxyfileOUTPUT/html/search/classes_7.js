@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['radioactiveelement_69',['RadioactiveElement',['../classRadioactiveElement.html',1,'']]],
-  ['redjewel_70',['RedJewel',['../classRedJewel.html',1,'']]],
-  ['robot_71',['Robot',['../classRobot.html',1,'']]]
+  ['obstacle_81',['Obstacle',['../classObstacle.html',1,'']]],
+  ['outoftheborderofmapexception_82',['OutOfTheBorderOfMapException',['../classOutOfTheBorderOfMapException.html',1,'']]]
 ];

@@ -13,6 +13,8 @@ Essa classe armazena as informações do mapa 2D e implementar métodos para adi
 bool \mbox{\hyperlink{classMap_a97f41cbe9be61fd605ec694d4da1b927}{is\+Empty}} ()
 \begin{DoxyCompactList}\small\item\em Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se o mapa foi finalizado. ~\newline
  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMap_a44b8ee83bc0d4356ec65abe7cff31d50}{level\+One}} (\mbox{\hyperlink{classRobot}{Robot}} robot)
+\item 
 void \mbox{\hyperlink{classMap_a39de3175089e99ec00445f8a26d9deb0}{level\+Up}} (\mbox{\hyperlink{classRobot}{Robot}} robot)
 \item 
 void \mbox{\hyperlink{classMap_a2ff50d06940303f21c4dd5ab16d728ed}{Print\+Map}} (\mbox{\hyperlink{classRobot}{Robot}} robot)
@@ -24,7 +26,9 @@ void \mbox{\hyperlink{classMap_a831752b3ed31e71806add104f7d51345}{Remove\+Cell}}
 \doxysubsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{interfaceICell}{ICell}}\mbox{[},\mbox{]} \mbox{\hyperlink{classMap_adfa3eba04c97e25011fb795eb806c77e}{Cells}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\mbox{\hyperlink{interfaceICell}{ICell}}\mbox{[},\mbox{]} \mbox{\hyperlink{classMap_adfa3eba04c97e25011fb795eb806c77e}{Cells}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \mbox{\hyperlink{classMap_a09097e0ef44736167c0c885d265bff92}{size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \end{DoxyCompactItemize}
 \doxysubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
@@ -74,7 +78,17 @@ Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se
 \begin{DoxyReturn}{Returns}
 e possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true. 
 \end{DoxyReturn}
-\mbox{\Hypertarget{classMap_a39de3175089e99ec00445f8a26d9deb0}\label{classMap_a39de3175089e99ec00445f8a26d9deb0}} 
+\mbox{\Hypertarget{classMap_a44b8ee83bc0d4356ec65abe7cff31d50}\label{classMap_a44b8ee83bc0d4356ec65abe7cff31d50}} 
+\index{Map@{Map}!levelOne@{levelOne}}
+\index{levelOne@{levelOne}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{levelOne()}{levelOne()}}
+{\footnotesize\ttfamily void Map.\+level\+One (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classRobot}{Robot}}}]{robot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+
+
+Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. \mbox{\Hypertarget{classMap_a39de3175089e99ec00445f8a26d9deb0}\label{classMap_a39de3175089e99ec00445f8a26d9deb0}} 
 \index{Map@{Map}!levelUp@{levelUp}}
 \index{levelUp@{levelUp}!Map@{Map}}
 \doxysubsubsection{\texorpdfstring{levelUp()}{levelUp()}}
@@ -84,7 +98,7 @@ e possuir ele retorna Falso (o mapa ainda nao esta vazio), se nao retorna true.
 
 
 
-Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. \mbox{\Hypertarget{classMap_a2ff50d06940303f21c4dd5ab16d728ed}\label{classMap_a2ff50d06940303f21c4dd5ab16d728ed}} 
+Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos aleatoriamente. \mbox{\Hypertarget{classMap_a2ff50d06940303f21c4dd5ab16d728ed}\label{classMap_a2ff50d06940303f21c4dd5ab16d728ed}} 
 \index{Map@{Map}!PrintMap@{PrintMap}}
 \index{PrintMap@{PrintMap}!Map@{Map}}
 \doxysubsubsection{\texorpdfstring{PrintMap()}{PrintMap()}}
@@ -103,7 +117,13 @@ Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar par
 \index{Map@{Map}!Cells@{Cells}}
 \index{Cells@{Cells}!Map@{Map}}
 \doxysubsubsection{\texorpdfstring{Cells}{Cells}}
-{\footnotesize\ttfamily \mbox{\hyperlink{interfaceICell}{ICell}} \mbox{[},\mbox{]} Map.\+Cells\hspace{0.3cm}{\ttfamily [get]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceICell}{ICell}} \mbox{[},\mbox{]} Map.\+Cells\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classMap_a09097e0ef44736167c0c885d265bff92}\label{classMap_a09097e0ef44736167c0c885d265bff92}} 
+\index{Map@{Map}!size@{size}}
+\index{size@{size}!Map@{Map}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily int Map.\+size\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
 
 
 

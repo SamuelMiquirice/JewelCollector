@@ -41,65 +41,68 @@ public class JewelCollector {
     public static void Main() {
         Map map = new Map();
 
-        RedJewel redRedJewel1 = new RedJewel(1, 9);
-        map.AddCell(redRedJewel1);
+        // RedJewel redRedJewel1 = new RedJewel(1, 9);
+        // map.AddCell(redRedJewel1);
 
-        RedJewel redRedJewel2 = new RedJewel(8, 8);
-        map.AddCell(redRedJewel2);
+        // RedJewel redRedJewel2 = new RedJewel(8, 8);
+        // map.AddCell(redRedJewel2);
 
-        GreenJewel greenGreenJewel1 = new GreenJewel(9, 1);
-        map.AddCell(greenGreenJewel1);
+        // GreenJewel greenGreenJewel1 = new GreenJewel(9, 1);
+        // map.AddCell(greenGreenJewel1);
 
-        GreenJewel greenGreenJewel2 = new GreenJewel(7, 6);
-        map.AddCell(greenGreenJewel2);
+        // GreenJewel greenGreenJewel2 = new GreenJewel(7, 6);
+        // map.AddCell(greenGreenJewel2);
 
-        BlueJewel blueBlueJewel1 = new BlueJewel(3, 4);
-        map.AddCell(blueBlueJewel1);
+        // BlueJewel blueBlueJewel1 = new BlueJewel(3, 4);
+        // map.AddCell(blueBlueJewel1);
 
-        BlueJewel blueBlueJewel2 = new BlueJewel(2, 1);
-        map.AddCell(blueBlueJewel2);
+        // BlueJewel blueBlueJewel2 = new BlueJewel(2, 1);
+        // map.AddCell(blueBlueJewel2);
 
-        Water water1 = new Water(5, 0);
-        map.AddCell(water1);
+        // Water water1 = new Water(5, 0);
+        // map.AddCell(water1);
 
-        Water water2 = new Water(5, 1);
-        map.AddCell(water2);
+        // Water water2 = new Water(5, 1);
+        // map.AddCell(water2);
 
-        Water water3 = new Water(5, 2);
-        map.AddCell(water3);
+        // Water water3 = new Water(5, 2);
+        // map.AddCell(water3);
 
-        Water water4 = new Water(5, 3);
-        map.AddCell(water4);
+        // Water water4 = new Water(5, 3);
+        // map.AddCell(water4);
 
-        Water water5 = new Water(5, 4);
-        map.AddCell(water5);
+        // Water water5 = new Water(5, 4);
+        // map.AddCell(water5);
 
-        Water water6 = new Water(5, 5);
-        map.AddCell(water6);
+        // Water water6 = new Water(5, 5);
+        // map.AddCell(water6);
 
-        Water water7 = new Water(5, 6);
-        map.AddCell(water7);
+        // Water water7 = new Water(5, 6);
+        // map.AddCell(water7);
 
-        Tree tree1 = new Tree(5, 9);
-        map.AddCell(tree1);
+        // Tree tree1 = new Tree(5, 9);
+        // map.AddCell(tree1);
 
-        Tree tree2 = new Tree(3, 9);
-        map.AddCell(tree2);
+        // Tree tree2 = new Tree(3, 9);
+        // map.AddCell(tree2);
 
-        Tree tree3 = new Tree(8, 3);
-        map.AddCell(tree3);
+        // Tree tree3 = new Tree(8, 3);
+        // map.AddCell(tree3);
 
-        Tree tree4 = new Tree(2, 5);
-        map.AddCell(tree4);
+        // Tree tree4 = new Tree(2, 5);
+        // map.AddCell(tree4);
 
-        Tree tree5 = new Tree(1, 4);
-        map.AddCell(tree5);
+        // Tree tree5 = new Tree(1, 4);
+        // map.AddCell(tree5);
 
-        // RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
-        // map.AddCell(radioactiveElement);
+        // // RadioactiveElement radioactiveElement = new RadioactiveElement(2, 2);
+        // // map.AddCell(radioactiveElement);
 
-          
-        Robot robot = new Robot(0, 0);
+        Robot robot = new Robot(0, 0);  
+
+        map.levelOne(robot);
+
+        
 
         bool isGameRunning = true;
 
