@@ -199,8 +199,18 @@ public void CollectCollectable(Map map) {
         if (collectable is Jewel) {
             TotalJewels++;
         }
-        if (collectable is IEnergySource) {
+        if ((collectable is IEnergySource)){
+            if ((collectable is Tree)){
+                Tree tree = (Tree)collectable;
+                if(!tree.Taken) { // tree.Taken == false
+                    TotalEnergy += ((IEnergySource)collectable).Energy;
+                    tree.Taken = true;
+                }
+            }
+        else{
             TotalEnergy += ((IEnergySource)collectable).Energy;
+        }
+
         }
 
         TotalScore += collectable.Points;
