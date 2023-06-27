@@ -162,7 +162,7 @@ public void setPos(int x, int y)
 /// <param name="map"> Representa a posição no mapa.</param>
 /// <returns> Este método retorna energia e a pontuação atual, após a coleção do objeito (joia)</returns>
 public void CollectCollectable(Map map) {
-    int mapSize = 10;
+    int mapSize = map.Cells.GetLength(0);
     
     ICell rightCell = null;
     ICell leftCell = null;

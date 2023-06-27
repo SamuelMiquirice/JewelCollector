@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ThereIsNoItemToCaptureException_8cs" kind="file" language="C#">
+    <compoundname>ThereIsNoItemToCaptureException.cs</compoundname>
+    <innerclass refid="classThereIsNoItemToCaptureException" prot="public">ThereIsNoItemToCaptureException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classThereIsNoItemToCaptureException" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classThereIsNoItemToCaptureException" kindref="compound">ThereIsNoItemToCaptureException</ref><sp/>:<sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classThereIsNoItemToCaptureException_1a5f7a7b1282370c0cd88913fe45ca667a" kindref="member">ThereIsNoItemToCaptureException</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>message)<sp/>:<sp/>base(message)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="ThereIsNoItemToCaptureException.cs"/>
+  </compounddef>
+</doxygen>

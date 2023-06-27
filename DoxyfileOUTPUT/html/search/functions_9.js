@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['obstacle_107',['Obstacle',['../classObstacle.html#aa64d3298a5ba2a44c4b9defaffb5e8a5',1,'Obstacle']]]
+  ['obstacle_129',['Obstacle',['../classObstacle.html#aa64d3298a5ba2a44c4b9defaffb5e8a5',1,'Obstacle']]],
+  ['outoftheborderofmapexception_130',['OutOfTheBorderOfMapException',['../classOutOfTheBorderOfMapException.html#aeaac3162f8356517aa0da4623b613d0c',1,'OutOfTheBorderOfMapException']]]
 ];

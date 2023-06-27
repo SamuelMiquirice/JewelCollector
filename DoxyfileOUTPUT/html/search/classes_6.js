@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['obstacle_68',['Obstacle',['../classObstacle.html',1,'']]]
+  ['noenergytorunexception_80',['NoEnergyToRunException',['../classNoEnergyToRunException.html',1,'']]]
 ];

@@ -24,6 +24,9 @@
   <compound refid="interfaceIEnergySource" kind="interface"><name>IEnergySource</name>
     <member refid="interfaceIEnergySource_1ae381aeb4b091fe3c6ab0b16b4fe6a720" kind="property"><name>Energy</name></member>
   </compound>
+  <compound refid="classInvalidPositionToStayException" kind="class"><name>InvalidPositionToStayException</name>
+    <member refid="classInvalidPositionToStayException_1ad27e0080e22fa411159669bad735b6cf" kind="function"><name>InvalidPositionToStayException</name></member>
+  </compound>
   <compound refid="classJewel" kind="class"><name>Jewel</name>
     <member refid="classJewel_1a92728797d6e99974b1638bcc0cf8864d" kind="property"><name>X</name></member>
     <member refid="classJewel_1a428566e8ef113de5e32111e5b9478ac8" kind="property"><name>Y</name></member>
@@ -35,18 +38,26 @@
   </compound>
   <compound refid="classMap" kind="class"><name>Map</name>
     <member refid="classMap_1adfa3eba04c97e25011fb795eb806c77e" kind="property"><name>Cells</name></member>
+    <member refid="classMap_1a09097e0ef44736167c0c885d265bff92" kind="property"><name>size</name></member>
     <member refid="classMap_1af020476bbce3b6eb3e74621d8503a957" kind="function"><name>Map</name></member>
     <member refid="classMap_1a97f41cbe9be61fd605ec694d4da1b927" kind="function"><name>isEmpty</name></member>
+    <member refid="classMap_1a44b8ee83bc0d4356ec65abe7cff31d50" kind="function"><name>levelOne</name></member>
     <member refid="classMap_1a39de3175089e99ec00445f8a26d9deb0" kind="function"><name>levelUp</name></member>
     <member refid="classMap_1a2ff50d06940303f21c4dd5ab16d728ed" kind="function"><name>PrintMap</name></member>
     <member refid="classMap_1a96ca20b0d7c13d2b36ceb5052676bae2" kind="function"><name>AddCell</name></member>
     <member refid="classMap_1a831752b3ed31e71806add104f7d51345" kind="function"><name>RemoveCell</name></member>
     <member refid="classMap_1aac08942102aebab59ce7879ee1bc7a5f" kind="function"><name>InitializeEmptyCells</name></member>
   </compound>
+  <compound refid="classNoEnergyToRunException" kind="class"><name>NoEnergyToRunException</name>
+    <member refid="classNoEnergyToRunException_1a77a62b01d13efc3466519441db09adce" kind="function"><name>NoEnergyToRunException</name></member>
+  </compound>
   <compound refid="classObstacle" kind="class"><name>Obstacle</name>
     <member refid="classObstacle_1a9c2af7a4e2f884584b6964afeca63197" kind="property"><name>X</name></member>
     <member refid="classObstacle_1a828535ddc133dcc0546ac94aa33bf398" kind="property"><name>Y</name></member>
     <member refid="classObstacle_1aa64d3298a5ba2a44c4b9defaffb5e8a5" kind="function"><name>Obstacle</name></member>
+  </compound>
+  <compound refid="classOutOfTheBorderOfMapException" kind="class"><name>OutOfTheBorderOfMapException</name>
+    <member refid="classOutOfTheBorderOfMapException_1aeaac3162f8356517aa0da4623b613d0c" kind="function"><name>OutOfTheBorderOfMapException</name></member>
   </compound>
   <compound refid="classRadioactiveElement" kind="class"><name>RadioactiveElement</name>
     <member refid="classRadioactiveElement_1ac18efaf24ee877c54f303f3a14f4844c" kind="property"><name>X</name></member>
@@ -78,9 +89,13 @@
     <member refid="classRobot_1a28451bab9229c5179df038d85506fd4d" kind="function"><name>PrintStats</name></member>
     <member refid="classRobot_1a5cc8821a18984f094d8668c6e6b1a9b0" kind="function"><name>ToString</name></member>
   </compound>
+  <compound refid="classThereIsNoItemToCaptureException" kind="class"><name>ThereIsNoItemToCaptureException</name>
+    <member refid="classThereIsNoItemToCaptureException_1a5f7a7b1282370c0cd88913fe45ca667a" kind="function"><name>ThereIsNoItemToCaptureException</name></member>
+  </compound>
   <compound refid="classTree" kind="class"><name>Tree</name>
     <member refid="classTree_1a9277665cc64ea4ca9294394f1724709e" kind="property"><name>Energy</name></member>
     <member refid="classTree_1a28018e4926f0c510f7d47218440eb93e" kind="property"><name>Points</name></member>
+    <member refid="classTree_1a59066ac55c36d93d1e23b67456328512" kind="property"><name>Taken</name></member>
     <member refid="classTree_1aa914109b657c92ca3e011303ce505510" kind="function"><name>Tree</name></member>
     <member refid="classTree_1aec93d504d7db4b76b74f64b0f4523cba" kind="function"><name>ToString</name></member>
   </compound>
@@ -119,11 +134,15 @@
   </compound>
   <compound refid="IEnergySource_8cs" kind="file"><name>IEnergySource.cs</name>
   </compound>
+  <compound refid="InvalidPositionToStayException_8cs" kind="file"><name>InvalidPositionToStayException.cs</name>
+  </compound>
   <compound refid="Jewel_8cs" kind="file"><name>Jewel.cs</name>
   </compound>
   <compound refid="JewelCollector_8cs" kind="file"><name>JewelCollector.cs</name>
   </compound>
   <compound refid="Map_8cs" kind="file"><name>Map.cs</name>
+  </compound>
+  <compound refid="NoEnergyToRunException_8cs" kind="file"><name>NoEnergyToRunException.cs</name>
   </compound>
   <compound refid="_8NETCoreApp_00Version_0av6_80_8AssemblyAttributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
   </compound>
@@ -133,11 +152,15 @@
   </compound>
   <compound refid="Obstacle_8cs" kind="file"><name>Obstacle.cs</name>
   </compound>
+  <compound refid="OutOfTheBorderOfMapException_8cs" kind="file"><name>OutOfTheBorderOfMapException.cs</name>
+  </compound>
   <compound refid="RadioactiveElement_8cs" kind="file"><name>RadioactiveElement.cs</name>
   </compound>
   <compound refid="RedJewel_8cs" kind="file"><name>RedJewel.cs</name>
   </compound>
   <compound refid="Robot_8cs" kind="file"><name>Robot.cs</name>
+  </compound>
+  <compound refid="ThereIsNoItemToCaptureException_8cs" kind="file"><name>ThereIsNoItemToCaptureException.cs</name>
   </compound>
   <compound refid="Tree_8cs" kind="file"><name>Tree.cs</name>
   </compound>

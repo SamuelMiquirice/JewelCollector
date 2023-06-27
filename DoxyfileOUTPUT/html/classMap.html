@@ -82,6 +82,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a97f41cbe9be61fd605ec694d4da1b927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Essa método, verifica se ainda possui uma joia no mapa. Isso ajuda a definir se o mapa foi finalizado. <br  />
   <a href="classMap.html#a97f41cbe9be61fd605ec694d4da1b927">More...</a><br /></td></tr>
 <tr class="separator:a97f41cbe9be61fd605ec694d4da1b927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b8ee83bc0d4356ec65abe7cff31d50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a44b8ee83bc0d4356ec65abe7cff31d50">levelOne</a> (<a class="el" href="classRobot.html">Robot</a> robot)</td></tr>
+<tr class="separator:a44b8ee83bc0d4356ec65abe7cff31d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39de3175089e99ec00445f8a26d9deb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a39de3175089e99ec00445f8a26d9deb0">levelUp</a> (<a class="el" href="classRobot.html">Robot</a> robot)</td></tr>
 <tr class="separator:a39de3175089e99ec00445f8a26d9deb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ff50d06940303f21c4dd5ab16d728ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a2ff50d06940303f21c4dd5ab16d728ed">PrintMap</a> (<a class="el" href="classRobot.html">Robot</a> robot)</td></tr>
@@ -93,8 +95,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:adfa3eba04c97e25011fb795eb806c77e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceICell.html">ICell</a>[,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#adfa3eba04c97e25011fb795eb806c77e">Cells</a><code> [get]</code></td></tr>
+<tr class="memitem:adfa3eba04c97e25011fb795eb806c77e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceICell.html">ICell</a>[,]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#adfa3eba04c97e25011fb795eb806c77e">Cells</a><code> [get, set]</code></td></tr>
 <tr class="separator:adfa3eba04c97e25011fb795eb806c77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09097e0ef44736167c0c885d265bff92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMap.html#a09097e0ef44736167c0c885d265bff92">size</a><code> [get, set]</code></td></tr>
+<tr class="separator:a09097e0ef44736167c0c885d265bff92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -210,6 +214,35 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a44b8ee83bc0d4356ec65abe7cff31d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b8ee83bc0d4356ec65abe7cff31d50">&#9670;&nbsp;</a></span>levelOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Map.levelOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classRobot.html">Robot</a>&#160;</td>
+          <td class="paramname"><em>robot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p></p>
+<p>Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. </p>
+
+</div>
+</div>
 <a id="a39de3175089e99ec00445f8a26d9deb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39de3175089e99ec00445f8a26d9deb0">&#9670;&nbsp;</a></span>levelUp()</h2>
 
@@ -235,7 +268,7 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p></p>
-<p>Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos. </p>
+<p>Essa método, passa para o nível 2 ou fase 2 (da mesma forma poderá passar para os níveis 3, 4, 5, se existirem). Para isso ela inicializa os elementos vazios, recebe o jogador para manter seu score e o coloca na posicao 0. Após isso é colocado no mapa as joias e outros obstaculos aleatoriamente. </p>
 
 </div>
 </div>
@@ -307,7 +340,29 @@ Private Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09097e0ef44736167c0c885d265bff92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09097e0ef44736167c0c885d265bff92">&#9670;&nbsp;</a></span>size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Map.size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

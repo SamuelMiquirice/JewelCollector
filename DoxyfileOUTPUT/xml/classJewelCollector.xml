@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="JewelCollector.cs" line="39" column="24" bodyfile="JewelCollector.cs" bodystart="39" bodyend="136"/>
+        <location file="JewelCollector.cs" line="41" column="24" bodyfile="JewelCollector.cs" bodystart="41" bodyend="178"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -23,7 +23,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="JewelCollector.cs" line="38" column="7" bodyfile="JewelCollector.cs" bodystart="38" bodyend="137"/>
+    <location file="JewelCollector.cs" line="40" column="7" bodyfile="JewelCollector.cs" bodystart="40" bodyend="179"/>
     <listofallmembers>
       <member refid="classJewelCollector_1aa8e5acb949e7b37d9c33f2a27d93eb8d" prot="public" virt="non-virtual"><scope>JewelCollector</scope><name>Main</name></member>
     </listofallmembers>

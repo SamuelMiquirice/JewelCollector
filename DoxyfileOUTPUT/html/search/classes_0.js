@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bluejewel_59',['BlueJewel',['../classBlueJewel.html',1,'']]]
+  ['bluejewel_70',['BlueJewel',['../classBlueJewel.html',1,'']]]
 ];
